@@ -3,7 +3,8 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Open Sans','Helvetica', 'Arial', 'Sans-Serif';
+    font-weight:800;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -21,7 +22,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Open Sans', 'Arial', 'Sans-Serif';
+    font-family:'Open Sans','Helvetica', 'Arial', 'Sans-Serif';
     font-weight:800;
 }
 p {
