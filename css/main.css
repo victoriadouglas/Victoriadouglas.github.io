@@ -1,8 +1,70 @@
+/*Global CSS*/
+
 body {
     margin: 60px auto;
     width: 70%;
     background-color:#f5f5f5;
 }
+
+/*Font Styling*/
+
+h1 {
+    font-size: 4em;
+    font-family:'Open Sans', 'Helvetica','Arial', 'Sans-Serif';
+    font-weight:800;
+    letter-spacing: -3px;
+    margin: 0 auto;
+}
+p {
+    font-family:'Open Sans', 'Helvetica','Arial', 'Sans-Serif';
+    font-weight:400;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    color:black;
+}
+
+footer {
+    font-size: .8em;
+}
+
+/*Global Formatting*/
+
+nav ul, footer ul {
+    font-family:'Open Sans', 'Arial', 'Sans-Serif';
+    font-weight:800;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+}
+
+/*Media Queries*/
 
 /* Logo CSS*/
 
@@ -22,49 +84,8 @@ body {
   z-index: 5;
 }
 
-/*End Logo CSS*/
+/*Text Highlighting*/
 
-nav ul, footer ul {
-    font-family:'Helvetica','Open Sans', 'Arial', 'Sans-Serif';
-    font-weight:800;
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+/*Overruled color stylings*/
 
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 4em;
-    font-family:'Open Sans', 'Helvetica','Arial', 'Sans-Serif';
-    font-weight:800;
-    letter-spacing: -3px;
-    margin: 0 auto;
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
