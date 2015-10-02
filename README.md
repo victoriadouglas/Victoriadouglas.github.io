@@ -1,3 +1,2 @@
-# JaredSellers.github.io Q$4MG3YKR
-A Sandbox Portfolio for a unicorn.
-Testing Testing
+# JaredSellers.github.io 
+A Sandbox Portfolio. Gotta go fast.
