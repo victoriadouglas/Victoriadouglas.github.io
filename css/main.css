@@ -3,19 +3,33 @@ body {
     width: 70%;
 }
 
+/* Logo CSS*/
+
 .img-circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .logo-wrapper {
-    position:relative;
-    width:200px;
+  position: relative;
+  width: 200px;
 }
 
 .logo img {
-    position: absolute;
+  position: absolute;
 }
 
+.bottom-image {
+  position: absolute;
+}
+
+.top-image {
+  position: absolute;
+  margin: 50px;
+  width: 100px;
+  z-index: 5;
+}
+
+/*End Logo CSS*/
 
 nav ul, footer ul {
     font-family:'Helvetica','Open Sans', 'Arial', 'Sans-Serif';
