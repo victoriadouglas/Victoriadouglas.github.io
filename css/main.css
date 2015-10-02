@@ -2,6 +2,11 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
+.img-circle {
+    border-radius: 50%;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica','Open Sans', 'Arial', 'Sans-Serif';
     font-weight:800;
