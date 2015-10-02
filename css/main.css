@@ -17,8 +17,8 @@ body {
 
 .top-image {
   position: absolute;
-  margin: 50px;
-  width: 100px;
+  margin: 25px;
+  width: 150px;
   z-index: 5;
 }
 
