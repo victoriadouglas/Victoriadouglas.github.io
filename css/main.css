@@ -7,6 +7,16 @@ body {
     border-radius: 50%;
 }
 
+.logo-wrapper {
+    position:relative;
+    width:200px;
+}
+
+.logo img {
+    position: absolute;
+}
+
+
 nav ul, footer ul {
     font-family:'Helvetica','Open Sans', 'Arial', 'Sans-Serif';
     font-weight:800;
