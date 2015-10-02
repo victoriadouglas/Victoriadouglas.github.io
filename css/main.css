@@ -14,14 +14,6 @@ body {
   width: 200px;
 }
 
-.logo img {
-  position: absolute;
-}
-
-.bottom-image {
-  position: absolute;
-}
-
 .top-image {
   position: absolute;
   margin: 50px;
