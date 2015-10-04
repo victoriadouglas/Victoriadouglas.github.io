@@ -1,3 +1,12 @@
+
+---
+layout: post
+title: "Test post is a test post"
+category: Blog
+date: 2015-08-20
+---
+
+
 This is the first post!
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
