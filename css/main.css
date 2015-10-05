@@ -16,6 +16,7 @@ body {
     z-index: 1000;
     width: 100%;
     height:auto;
+    background: white;
 }
 
 .nav ul, footer ul {
@@ -27,10 +28,16 @@ body {
     margin: 0px;
 
 }
-.nav ul li, footer ul li {
+.navbar-right ul li, footer ul li {
     display: inline-block;
     padding: 5px 10px 5px 10px;
 }
+
+.navbar-left ul li {
+    display: inline-block;
+    padding: 12px 10px 12px 10px;
+}
+
 
 .navbar-left {
     display: inline-block;
@@ -40,7 +47,6 @@ body {
 .navbar-right {
     display: inline-block;
     float: right;
-    height: 20px;
     padding: 0px;
  
 }
@@ -61,7 +67,12 @@ background: black;
 }
 
 
+/*Footer text*/
 
+.footer-text {
+    color:#808080;
+    margin:5px 0px 0px 10px;
+}
 
 /*Font Styling*/
 
@@ -86,7 +97,7 @@ p {
     font-weight:300;
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: black;
 }
 a {
     text-decoration: none;
