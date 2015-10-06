@@ -1,18 +1,16 @@
 
 h1 {
     font-size: 4em;
-    font-family:'Lato', 'Helvetica','Arial', 'Sans-Serif';
+    font-family: $font-default;
     font-weight:900;
-    padding: 0;
-    margin-bottom:-20px;
-    line-height: 85%;
+    color:$text-color-dark;
 }
 
 h2 {
     font-size: 1.25em;
-    font-family:'Lato', 'Helvetica','Arial', 'Sans-Serif';
-    font-weight:300;
-    color:#808080;
+    font-family: $font-default;
+    font-weight:$light;
+    color:$text-color-mid;
 }
 
 h3 {
