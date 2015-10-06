@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title: "Test post is a test post"
+title: "Test first post"
 category: Blog
 date: 2015-08-20
 ---

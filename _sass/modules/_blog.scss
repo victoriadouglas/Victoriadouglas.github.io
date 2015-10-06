@@ -1,5 +1,10 @@
-.postlist h1, h2{
-display: inline-block; 
+.postlist h1, h2, p {
+display: inline-block;
+margin:0px;
+}
+
+.postlist p img {
+    border-radius: 50%
 }
 
 ul {
