@@ -1,58 +1,19 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-            <link href='https://fonts.googleapis.com/css?family=Lato:300,900' rel='stylesheet' type='text/css'>
-		</head>
-        
-<body>
-  
-<div class="nav">
-      <div class="container">
-            <div class="navbar-left">
-                <ul>
-                    <li class="current"><a href="/">HOME</a></li>
-                    <li><a href="/">PORTFOLIO</a></li>
-                    <li><a href="/blog">BLOG</a></li>
-                    <li><a href="/about">ABOUT</a></li>
-                </ul>
-            </div>
-            
-            <div class="navbar-right">
-                <ul>
-                    <li><a href="/"><img src="http://lorempixel.com/30/30/"></a></li>
-                    <li><a href="/"><img src="http://lorempixel.com/30/30/"></a></li>
-                    <li><a href="/"><img src="http://lorempixel.com/30/30/"></a></li>
-                    <li><a href="/"><img src="http://lorempixel.com/30/30/"></a></li>
-                    <li><a href="/"><img src="http://lorempixel.com/30/30/"></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    
-<div class="container">
-<div class="logo">
-    <img class="logo-top" src="/img/200wideLogo.svg">
-    <img class="logo-bottom" src="http://lorempixel.com/200/200">
-</div>
-</div>
-            
-<div class="container">
-{% include page-title.html %}
-			
-{{ content }}
-			
-</div><!-- /.container -->
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,900' rel='stylesheet' type='text/css'>
+    </head>
 
-<div class="container">
-<div class="footer">
-    <ul>
-        <h6>Jared Sellers Illustration 2015</h6>
-    </ul>
-</div>
-</div>
-    
-</body>
-	</html>
+    <body>
+        {% include navbar.html %}
+        {% include logo.html %}
+        {% include page-title.html %}	
+        <div class="container">
+            {{ content }}
+        </div><!-- /.container -->
+        {% include footer.html %}	
+    </body>
+</html>

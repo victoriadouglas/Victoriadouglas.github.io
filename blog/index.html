@@ -1,13 +1,15 @@
 ---
 layout: default
-title: Test Blog
+title: The Blog
+subtitle: This is where the magic happens.
 ---
-	<h1>{{ page.title }}</h1>
-
 	<ul class="posts">
 	  {% for post in site.posts %}
 	    
-        <li><span>{{ post.date | date_to_string }}</span> // <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        <li class="postlist">
+            <h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+            <h2>//{{ post.date | date_to_string }}</h2>
+        </li>
         
 	  {% endfor %}
 	</ul>
