@@ -1,0 +1,54 @@
+.nav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height:auto;
+    background: white;
+}
+
+.nav ul, footer ul {
+    font-family:'Lato', 'Arial', 'Sans-Serif';
+    font-weight:800;
+    padding:0px;
+    list-style: none;
+    font-weight: bold;
+    margin: 0px;
+
+}
+.navbar-right ul li, footer ul li {
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+}
+
+.navbar-left ul li {
+    display: inline-block;
+    padding: 12px 10px 12px 10px;
+}
+
+
+.navbar-left {
+    display: inline-block;
+    float: left;
+}
+
+.navbar-right {
+    display: inline-block;
+    float: right;
+    padding: 0px;
+ 
+}
+
+
+@media (max-width: 800px) {
+  .navbar-right {
+float: left;
+  }
+}
+
+.current {
+background: black;
+}
+
+.current a{
+    color:white;
+}

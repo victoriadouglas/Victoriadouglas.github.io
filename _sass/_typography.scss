@@ -1,0 +1,62 @@
+
+h1 {
+    font-size: 4em;
+    font-family:'Lato', 'Helvetica','Arial', 'Sans-Serif';
+    font-weight:900;
+    padding: 0;
+    margin-bottom:-20px;
+    line-height: 85%;
+}
+
+h2 {
+    font-size: 1.25em;
+    font-family:'Lato', 'Helvetica','Arial', 'Sans-Serif';
+    font-weight:300;
+    color:#808080;
+}
+
+p {
+    font-family:'Lato', 'Helvetica','Arial', 'Sans-Serif';
+    font-weight:300;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 a:hover {
+    color:red;
+}
+    
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color:#808080;
+}
+
+footer {
+    font-size: .8em;
+}
+
+/*Global Formatting*/
+
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+}

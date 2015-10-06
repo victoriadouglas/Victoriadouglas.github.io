@@ -1,0 +1,17 @@
+.img-circle {
+  border-radius: 50%;
+}
+
+.logo-wrapper {
+  position: relative;
+  width: 200px;
+  padding:  100px 0px 50px 0px;
+    
+}
+
+.top-image {
+  position: absolute;
+  margin: 25px;
+  width: 150px;
+  z-index: 5;
+}
