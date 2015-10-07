@@ -1,0 +1,16 @@
+
+<ul class="folio">
+	  {% for post in site.posts limit:12 %}
+    {% if post.categories contains 'portfolio' %}
+        <li class="foliodiv">
+           
+            {% if post.thumbnail %}
+	<a href="{{ post.url }}"><img src="{{ post.thumbnail }}"/></a>
+	{% else %}
+                <a href="{{ post.url }}"><img src="http://lorempixel.com/300/300/" /></a>
+	   {% endif %}
+        
+            {% endif %}
+	  {% endfor %}
+</li>
+</ul>
