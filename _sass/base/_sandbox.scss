@@ -10,39 +10,31 @@
     margin:0 auto;
     padding: 0px;
     position: relative;
+    margin-top: 20px;
 }
 
 .clip {
-    width:100%;
+    width:103%;
     position: absolute;
+    vertical-align: bottom;
+    top: -2vw;
     z-index:2;
 }
 
 .art {
     width:80%;
     position:relative;
-    top: 31px;
     margin: 0 auto;
+    margin-left: 10%;
+    vertical-align: top;
     z-index: 1;
-    
-    /* Firefox */
-    display:-moz-box;
-    -moz-box-pack:center;
-    -moz-box-align:center;
-
-    /* Safari and Chrome */
-    display:-webkit-box;
-    -webkit-box-pack:center;
-    -webkit-box-align:center;
-
-    /* W3C */
-    display:box;
-    box-pack:center;
-    box-align:center;
-
     -webkit-box-shadow: 0px 21px 56px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 21px 56px -1px rgba(0,0,0,0.75);
-box-shadow: 0px 21px 56px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 21px 56px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 21px 56px -1px rgba(0,0,0,0.75);
+}
+
+.hanger li a {
+    width: 80%;
 }
 
 .bump {

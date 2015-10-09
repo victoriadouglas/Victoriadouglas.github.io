@@ -1,39 +1,13 @@
-
-
-
-<div class="hanger">
-    <div class="container bump">
-        <h2>.portfolio</h2>
-    </div>
-    <div class="hung">
-        <img class="clip" src="/img/blinder%20clip%20on%20wire.svg">
-        <img class="art" src="http://lorempixel.com/260/400">
-    </div><div class="hung">
-        <img class="clip" src="/img/blinder%20clip%20on%20wire.svg">
-        <img class="art" src="http://lorempixel.com/260/400">
-    </div><div class="hung">
-        <img class="clip" src="/img/blinder%20clip%20on%20wire.svg">
-        <img class="art" src="http://lorempixel.com/260/400">
-    </div><div class="hung">
-        <img class="clip" src="/img/blinder%20clip%20on%20wire.svg">
-        <img class="art" src="http://lorempixel.com/260/400">
-    </div>
-    
-</div>
-
 <ul class="hanger">
     <li class="container bump">
         <h2>.portfolio</h2>
     </li>
-	  {% for post in site.tags.portfolio limit:4 %}
-	    
-        <li class="hung">
+	  {% for post in site.tags.portfolio limit:4 %}<li class="hung">
             <img class="clip" src="/img/blinder%20clip%20on%20wire.svg">
             {% if post.thumbnail %}
-	<img class="art" src="{{ post.thumbnail }}"/>
+            
+	<a href="{{ post.url }}"/><img class="art" src="{{ post.thumbnail }}"/></a>
 	{% else %}
-                <a href="{{ post.url }}"><img lass="art" src="http://lorempixel.com/50/50/" /></a>
-	{% endif %}
-        </li>
-	  {% endfor %}
+                <a href="{{ post.url }}"/><img lass="art" src="http://lorempixel.com/50/50/" /></a>
+	{% endif %}</li>{% endfor %}
 	</ul>

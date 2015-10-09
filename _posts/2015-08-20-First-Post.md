@@ -2,6 +2,7 @@
 layout: post
 title: "Test first post"
 category: Blog
+tags: blog
 date: 2015-08-20
 ---
 
