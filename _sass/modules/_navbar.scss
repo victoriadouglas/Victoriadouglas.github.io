@@ -1,4 +1,4 @@
-.nav {
+c.nav {
     position: fixed;
     z-index: 1000;
     width: 100%;
@@ -51,4 +51,14 @@ background: black;
 
 .current a{
     color:white;
+}
+
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color:#808080;
 }

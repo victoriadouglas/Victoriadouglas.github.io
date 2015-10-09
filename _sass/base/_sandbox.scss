@@ -1,6 +1,7 @@
 .hanger {
     width: 100%;
     margin-top: 100px;
+    padding: 0px;
 }
 
 .hung {
@@ -9,12 +10,10 @@
     margin:0 auto;
     padding: 0px;
     position: relative;
-    
-    
 }
 
 .clip {
-    width:101%;
+    width:100%;
     position: absolute;
     z-index:2;
 }
