@@ -15,14 +15,14 @@
     margin: 0px;
 
 }
-.navbar-right ul li, footer ul li {
+.navbar-right ul li{
     display: inline-block;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 5px 5px 5px;
 }
 
 .navbar-left ul li {
     display: inline-block;
-    padding: 12px 10px 12px 10px;
+    margin-top: 10px;
 }
 
 
@@ -45,28 +45,71 @@ float: left;
   }
 }
 
-.social img {
-    width:30px;
-}
 
-.social img:hover {
-    opacity: 80%;
-}
-
-.current {
-background: black;
-}
-
-.current a{
-    color:white;
-}
-
-
-li a {
+.sitelink a {
     text-decoration: none;
-    color: black;
+    color: black;  	
+    -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+    padding: 10px;
 }
 
-li a:hover {
-    color:#808080;
+.sitelink a:hover {
+    color:white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+#icon {
+  width:30px;
+}
+
+.navlink {
+  	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+}
+
+.behance, .dribbble, .facebook, .github, .linkedin, .nav-logo {
+  	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+}
+
+.navlink:hover {
+    
+   .behance{
+    fill:#33abdb;
+  }
+    .dribbble {
+    fill:#fc89b1;
+  }
+    .facebook {
+    fill:#4b70ab;
+  }
+    .github {
+    fill:#333333;
+  }    
+  .linkedin {
+    fill:#0087be;
+  }
+  
+  .nav-logo {
+    fill:white;
+  }
+
 }
