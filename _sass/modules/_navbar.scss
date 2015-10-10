@@ -45,6 +45,14 @@ float: left;
   }
 }
 
+.social img {
+    width:30px;
+}
+
+.social img:hover {
+    opacity: 80%;
+}
+
 .current {
 background: black;
 }
