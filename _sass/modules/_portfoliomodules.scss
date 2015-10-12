@@ -1,19 +1,35 @@
-.folio-wrapper {
-     margin: 150px 0px 0px 0px;
+#icon-goto {
+  width:80px;
 }
 
-.folio {
-    width:100%;
-    padding: 0px;
-    margin: 5px 0px 0px 0px;
+.navlink {
+  	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
 }
 
-.foliodiv {
-    display: inline-block;
-    width: 25%;
+.behance, .dribbble, .facebook, .github, .linkedin, .nav-logo {
+  	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
 }
 
-.foliodiv img {
-    width: 100%;
-    vertical-align:bottom;
+.goto-wrapper {
+float:right;
+margin-right: 50px;
+}
+
+.navlink:hover {
+    
+   .goto{
+    fill:#33abdb;
+  }
+  .nav-logo {
+    fill:white;
+  }
+
 }

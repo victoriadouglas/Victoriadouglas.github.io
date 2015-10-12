@@ -23,6 +23,7 @@
 
 .art {
     width:80%;
+    height: auto;
     position:relative;
     margin: 0 auto;
     margin-left: 10%;
@@ -33,10 +34,52 @@
     box-shadow: 0px 21px 56px -1px rgba(0,0,0,0.75);
 }
 
+
+
 .hanger li a {
     width: 80%;
 }
 
 .bump {
     margin-bottom: 50px;
+}
+
+.folio-rect {
+     	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s; 
+}
+
+.folio-filling {
+      	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+}
+
+.folio-words g path {
+      	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+}
+
+
+
+.hung-hover:hover {
+    
+    .folio-words g path {
+    fill:#ffffff;    
+    }
+    
+    .folio-rect {
+fill:#33ABDB;
+}
+    .folio-filling {
+fill:#ffffff;
+}
 }
