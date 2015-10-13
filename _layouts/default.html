@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>{{ page.title }}</title>
-        <!-- link to main stylesheet -->
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
-        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,900italic,900' rel='stylesheet' type='text/css'>
-    </head>
-
-    <body>
-        {% include navbar.html %}
-       <!-- {% include logo.html %} -->
+---
+layout: headerfooter
+---
         {% include page-title.html %}	
            
         {{ content }}
-        
-        {% include footer.html %}	
-    </body>
-</html>
