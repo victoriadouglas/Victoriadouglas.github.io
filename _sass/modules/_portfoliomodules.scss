@@ -99,9 +99,7 @@ z-index: 2;
 }
 .overlay span {
     text-align: center;
-    
-    margin: 50% 0% 50% 0%;
-    display: block;
+    display: inline; /*Change to Block*/
     width: 100%;
     color: #F2F2F2;
     text-decoration: none;
@@ -110,6 +108,8 @@ z-index: 2;
     font-size: 2em;
     word-wrap: normal;
     opacity: 0;
+    display: none;
+    visibility: hidden; /*Hide this when ready*/
 
 }
 .overlay span:before {
