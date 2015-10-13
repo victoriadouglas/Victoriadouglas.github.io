@@ -3,21 +3,16 @@ layout: default
 title: Portfolio
 subtitle: Welcome to the jungle.
 ---
-	<ul class="posts">
-	  {% for post in site.posts %}
-        {% if post.categories contains 'portfolio' %}
-	    
-        <li class="postlist">
-            <p>
-                {% if post.thumbnail %}
-	               <a href="{{ post.url }}"><img src="{{ post.thumbnail }}"/></a>
-	           {% else %}
-                    <a href="{{ post.url }}"><img src="http://lorempixel.com/50/50/" /></a>
-	           {% endif %}
-            </p>
-            <h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
-            <h2>//{{ post.date | date_to_string }}</h2>
-        </li>
-        {% endif %}
-	  {% endfor %}
-	</ul>
+<ul class="hanger">
+	  {% for post in site.categories.portfolio %}<li class="hung">
+    <div class="overlay-shadow">
+            <img class="clip" src="/img/blinder%20clip%20on%20wire.svg">
+            {% if post.thumbnail %}
+            
+	<img class="art" src="{{ post.thumbnail }}"/>
+	{% else %}
+    <img class="art" src="http://lorempixel.com/50/50/" />
+	{% endif %}
+<a class="overlay" href="{{ post.url }}"><span>{{ post.title }}</span></a>
+</div></li>{% endfor %}
+</ul>
