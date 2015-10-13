@@ -18,15 +18,16 @@
     position: absolute;
     vertical-align: bottom;
     top: -2vw;
-    z-index:2;
+    z-index:3;
+    margin-left:-10%;
 }
 
 .art {
-    width:80%;
+    width:100%;
+        margin-left:10%;
     height: auto;
     position:relative;
     margin: 0 auto;
-    margin-left: 10%;
     vertical-align: top;
     z-index: 1;
     -webkit-box-shadow: 0px 21px 56px -1px rgba(0,0,0,0.75);
@@ -38,10 +39,6 @@
 
 .hanger li a {
     width: 80%;
-}
-
-.bump {
-    margin-bottom: 50px;
 }
 
 .folio-rect {
@@ -82,4 +79,56 @@ fill:#33ABDB;
     .folio-filling {
 fill:#ffffff;
 }
+}
+
+.overlay-shadow {
+    width:80%;
+    margin: 0% 10% 0% 10%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left:0; right: 0; bottom: 0;
+z-index: 2;
+  height: 100%;
+  background: rgba(0,0,0,.3);
+  opacity: 0;
+   margin-left: 10%;
+}
+.overlay, .overlay span {
+  transition: opacity .2s 
+}
+.overlay span {
+    display: block;
+    margin-bottom: -100%;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    color: #F2F2F2;
+    text-decoration: none;
+    font-family: $font-default;
+    font-weight: 900;
+    font-size: 2em;
+    word-wrap: normal;
+
+  opacity: 0;
+    text-align: center;
+}
+.overlay span:before {
+  content: "";
+  display: block;
+    margin-bottom: -100%;
+  vertical-align: middle;
+  height: 100%;
+
+}
+.overlay-shadow:hover .overlay,
+.overlay:focus {
+  top: 0;
+  opacity: 1;
+}
+.overlay-shadow:hover .overlay span,
+.overlay:focus span {
+  opacity: 1;
+
 }
