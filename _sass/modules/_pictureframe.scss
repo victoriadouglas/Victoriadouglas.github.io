@@ -1,0 +1,26 @@
+.picture-frame {
+  background-color:blue;
+  width: 80%;
+  border:black solid 40px;
+      -webkit-box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
+box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
+  margin:0% 10% 0% 10%;
+}
+.matte {
+  background-color:white;
+  height:100%;
+-webkit-box-shadow: inset 0px 0px 18px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 18px -3px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 18px -3px rgba(0,0,0,0.75);
+}
+
+.framedart {
+  width:80%;
+  margin:10% 10% 10% 10%;
+}
+
+.clear {
+ margin-bottom: 100px;
+    padding-top: 100px;
+}

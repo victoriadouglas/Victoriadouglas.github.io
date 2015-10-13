@@ -1,9 +1,32 @@
----
-layout: default
----
 
-<div class="post">
-    <div class="container">
-  {{ content }}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,900italic,900' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+        {% include navbar.html %}
+       <!-- {% include logo.html %} -->
+        <div class="clear">
+    <div class="container-50">
+<div class="picture-frame">
+  <div class="matte">
+    <img class="framedart" src="{{ page.full }}">
+  </div>
+</div>
     </div>
-</div> 
+    <div class="container-50">
+        {% include gallery-card.html%}
+    </div>
+</div>
+
+<div class="container">
+  {{ content }}
+</div>
+        {% include footer.html %}	
+    </body>
+</html>
