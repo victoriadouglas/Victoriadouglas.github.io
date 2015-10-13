@@ -3,6 +3,16 @@ layout: default
 title: Portfolio
 subtitle: Welcome to the jungle.
 ---
+<div class="container">
+    <div class="navbar-left">
+            <ul>
+                <li class="foliolink"><a href="/portfolio"><h3>#All</h3></a></li>
+                <li class="foliolink"><a href="/portfolio/illustration/"><h3>#Illustration</h3></a></li>
+                <li class="foliolink"><a href="/portfolio/design/"><h3>#Design</h3></a></li>
+                <li class="foliolink"><a href="/portfolio/traditional/"><h3 class="current">#Traditional</h3></a></li>
+            </ul>
+        </div>
+</div>
 <ul class="hanger">
 	  {% for post in site.tags.traditional %}<li class="hung">
     <div class="overlay-shadow">
