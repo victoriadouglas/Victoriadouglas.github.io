@@ -1,0 +1,18 @@
+---
+layout: default
+title: Portfolio
+subtitle: Welcome to the jungle.
+---
+<ul class="hanger">
+	  {% for post in site.categories.portfolio %}<li class="hung">
+    <div class="overlay-shadow">
+            <img class="clip" src="/img/blinder%20clip%20on%20wire.svg">
+            {% if post.thumbnail %}
+            
+	<img class="art" src="{{ post.thumbnail }}"/>
+	{% else %}
+    <img class="art" src="http://lorempixel.com/50/50/" />
+	{% endif %}
+<a class="overlay" href="{{ post.url }}"><span>{{ post.title }}</span></a>
+</div></li>{% endfor %}
+</ul>

@@ -90,7 +90,6 @@ fill:#ffffff;
   position: absolute;
   top: 0; left:0; right: 0; bottom: 0;
 z-index: 2;
-  height: 100%;
   background: rgba(0,0,0,.3);
   opacity: 0;
    margin-left: 10%;
@@ -99,10 +98,10 @@ z-index: 2;
   transition: opacity .2s 
 }
 .overlay span {
+    text-align: center;
+    
+    margin: 50% 0% 50% 0%;
     display: block;
-    margin-bottom: -100%;
-    vertical-align: middle;
-    height: 100%;
     width: 100%;
     color: #F2F2F2;
     text-decoration: none;
@@ -110,16 +109,12 @@ z-index: 2;
     font-weight: 900;
     font-size: 2em;
     word-wrap: normal;
+    opacity: 0;
 
-  opacity: 0;
-    text-align: center;
 }
 .overlay span:before {
   content: "";
   display: block;
-    margin-bottom: -100%;
-  vertical-align: middle;
-  height: 100%;
 
 }
 .overlay-shadow:hover .overlay,
