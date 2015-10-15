@@ -167,7 +167,6 @@ padding: 0px 20px 0px 20px;
 display: block;
 width: 70%;
 margin:0 auto;
-padding-top: 5vh;
 }
 
 .exitletters {
@@ -203,5 +202,29 @@ padding-top: 5vh;
 }
     .blueexit {
     opacity:100;
+    }
+}
+
+.next {
+text-align: left;
+    display: inline-block;
+}
+.prev {
+text-align: right;
+    display: inline-block;
+}
+
+.prevnext {
+    display:block;
+    width:70%;
+    margin:0 auto;
+    ul {
+        padding:0px;
+        li {
+         padding: 0px;   
+        }
+    }
+    h3 {
+     color:#32AAD9;   
     }
 }

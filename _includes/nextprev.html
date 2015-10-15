@@ -1,19 +1,9 @@
-<div class="container">
-    <div class="nextprev">
-        <div class="next">
-            <h3>&lt;&lt;next</h3>
-        </div>
-        <div class="prev">
-            <h3>previous&gt;&gt;</h3>
-        </div>
-    </div>
-</div>
 
-<div class="container">
-    <div class="folio-navbar">
+
+    <div class="folio-navbar prevnext">
             <ul>
-                <li class="foliolink"><a href="/"><h3>&lt;&lt;next</h3></a></li>
-                <li class="foliolink"><a href="/"><h3>previous&gt;&gt;</h3></a></li>
+                <li class="foliolink next"><a class="next" href="{{ page.next.url }}"><h3>&lt;&lt;next</h3></a><h3 class="next"> // </h3><a  class="prev" href="{{ page.previous.url }}"><h3>previous&gt;&gt;</h3></a></li>
             </ul>
         </div>
-</div>
+
+
