@@ -162,3 +162,46 @@ padding: 0px 20px 0px 20px;
 .foliolink .current{
     color:#32AAD9;
 }
+
+.exitplace {
+display: block;
+width: 70%;
+margin:0 auto;
+padding-top: 5vh;
+}
+
+.exitletters {
+  opacity:0;
+     -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+}
+.blueexit {
+  opacity:0;
+     -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+}
+.exitsign {
+  width:15%;
+    height:200px;
+}
+.vanish {
+     -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+}
+.exitsign a:hover {
+    .vanish {
+  opacity: 0;
+}
+    .blueexit {
+    opacity:100;
+    }
+}
