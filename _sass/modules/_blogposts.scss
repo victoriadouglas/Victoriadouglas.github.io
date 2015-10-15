@@ -1,0 +1,12 @@
+.nextprev {
+display: block;
+    height: 75px;
+    .next {
+     display: inline-block;
+        float: left;
+    }
+    .prev {
+     display: inline-block;
+        float: right;
+    }
+}
