@@ -209,55 +209,67 @@ height: auto;
 }
 
 .next {
-text-align: left;
-    float: left;
-    padding: 0px;
-         -o-transition:.2s;
-  	-ms-transition:.2s;
-  	-moz-transition:.2s;
-  	-webkit-transition:.2s;
-  	transition: .2s;
-    a {
-               margin-top: 15px; 
-            }
-
+    
 }
 .prev {
-text-align: right;
-    float: right;
-    padding: 0px;
+}
+
+.prev, .next {
          -o-transition:.2s;
   	-ms-transition:.2s;
   	-moz-transition:.2s;
   	-webkit-transition:.2s;
   	transition: .2s;
-    a {
-               margin-top: 15px; 
-            }
+}
+
+.circle-svg {
+fill:white;
+             -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+}
+
+.carat {
+    fill:black;
+         -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
 }
 
 .prev:hover, .next:hover {
-background: black;
-    h3 {
-    color: white;
+    .carat {
+        fill:white;
     }
+    .circle-svg {
+        fill:#31AAD7;
+    }
+    
 }
 
 .prevnext {
-    width:95%;
-    float: left;
-    margin:0 auto;
-    ul {
-        padding:0px;
-        li {
-         padding: 0px;
-        margin: 10px 0 0 0;  
-        }
-    }
-    h3 {
-     color:#32AAD9;
-    margin: 0 0 0 0;
-    }
+width: 100%;
+height: auto;
+position: fixed;
+    top:40%;
+
+}
+
+.next-pos, .prev-pos {
+  width:100px;
+}
+
+.next-pos {
+float:left;
+    padding: 1%;
+}
+
+.prev-pos {
+float: right;
+padding: 1%;
 }
 
 .card-place {
