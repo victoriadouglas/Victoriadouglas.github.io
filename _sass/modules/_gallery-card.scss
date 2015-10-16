@@ -1,12 +1,12 @@
 .card {
-    width: 80%;
+    width: 90%;
     padding:3%;
-    padding-left: 5%;
-    margin:0% 10% 0% 10%;
+    margin:0 auto;
+    float:left;
 -webkit-box-shadow: 10px 10px 47px 0px rgba(0,0,0,0.41);
 -moz-box-shadow: 10px 10px 47px 0px rgba(0,0,0,0.41);
 box-shadow: 10px 10px 47px 0px rgba(0,0,0,0.41);
-    vertical-align: top;
+    vertical-align: middle;
 }
 
  .card-title {

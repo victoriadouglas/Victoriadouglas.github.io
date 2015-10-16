@@ -1,11 +1,12 @@
 .picture-frame {
   background-color:blue;
-  width: 80%;
+  width: 86.33%;
+    float: right;
   border:black solid 40px;
       -webkit-box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
 -moz-box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
 box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
-  margin:0% 10% 0% 10%;
+  margin:0 auto;
 }
 .matte {
   background-color:white;

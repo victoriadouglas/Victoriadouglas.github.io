@@ -165,8 +165,10 @@ padding: 0px 20px 0px 20px;
 
 .exitplace {
 display: block;
-width: 70%;
+width: 100%;
 margin:0 auto;
+float: left;
+vertical-align: top;
 }
 
 .exitletters {
@@ -186,8 +188,9 @@ margin:0 auto;
   	transition: .2s;
 }
 .exitsign {
-  width:15%;
-    height:200px;
+  width:30%;
+height: auto;
+    margin-bottom: 20%;
 }
 .vanish {
      -o-transition:.2s;
@@ -207,24 +210,56 @@ margin:0 auto;
 
 .next {
 text-align: left;
-    display: inline-block;
+    float: left;
+    padding: 0px;
+         -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+    a {
+               margin-top: 15px; 
+            }
+
 }
 .prev {
 text-align: right;
-    display: inline-block;
+    float: right;
+    padding: 0px;
+         -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+    a {
+               margin-top: 15px; 
+            }
+}
+
+.prev:hover, .next:hover {
+background: black;
+    h3 {
+    color: white;
+    }
 }
 
 .prevnext {
-    display:block;
-    width:70%;
+    width:95%;
+    float: left;
     margin:0 auto;
     ul {
         padding:0px;
         li {
-         padding: 0px;   
+         padding: 0px;
+        margin: 10px 0 0 0;  
         }
     }
     h3 {
-     color:#32AAD9;   
+     color:#32AAD9;
+    margin: 0 0 0 0;
     }
+}
+
+.card-place {
+    vertical-align: top;
 }

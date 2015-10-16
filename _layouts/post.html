@@ -1,9 +1,13 @@
 ---
 layout: headerfooter
 ---
-{% include exitsign.html %}
-{% include nextprev.html %}
-        <div class="clear">
+        <div class="container">
+    <div class="container-50 card-place">
+        {% include exitsign.html %}
+        {% include nextprev.html %}
+        {% include gallery-card.html%}
+        
+    </div>
     <div class="container-50">
 <div class="picture-frame">
   <div class="matte">
@@ -11,13 +15,9 @@ layout: headerfooter
   </div>
 </div>
     </div>
-    <div class="container-50">
-        {% include gallery-card.html%}
-    </div>
 </div>
 
 <div class="container">
   {{ content }}
 </div>
-{% include nextprev.html %}
 
