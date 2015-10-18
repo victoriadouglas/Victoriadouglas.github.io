@@ -1,6 +1,6 @@
 name: Jared Sellers
 markdown: kramdown
-permalink: /:category/:year/:title
+permalink: /:category/:year/:month/:day/:title
 
 sass:
   sass_dir: _sass
