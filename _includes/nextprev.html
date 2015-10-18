@@ -5,7 +5,17 @@
 	 xml:space="preserve">
 <defs>
 </defs>
-    <a  class="next" xlink:href="{{ page.next.url }}">
+    
+    {% if page.next and page.next.categories contains "portfolio" %}
+
+      <a  class="next" xlink:href="{{ page.next.url }}">
+
+{% else %}
+
+<a  class="next" xlink:href="{{ page.url }}">
+          
+{% endif %}
+    
 <circle class="circle-svg" cx="50" cy="50" r="50"/>
 <g>
 	<path class="carat" d="M46.746,47.713l37.267-19.477v9.884c0,0.698-0.174,1.357-0.523,1.957c-0.349,0.601-0.95,1.105-1.764,1.492l-13.062,7.093
@@ -24,7 +34,15 @@
 	 xml:space="preserve">
 <defs>
 </defs>
-    <a  class="prev" xlink:href="{{ page.previous.url }}">
+    {% if page.previous and page.previous.categories contains "portfolio" %}
+
+      <a  class="next" xlink:href="{{ page.previous.url }}">
+
+{% else %}
+
+<a  class="next" xlink:href="{{ page.url }}">
+          
+{% endif %}
 <circle class="circle-svg" cx="50" cy="50" r="50"/>
 <g>
 	<path class="carat" d="M53.254,52.287L15.986,71.764V61.88c0-0.698,0.174-1.357,0.523-1.957c0.349-0.601,0.95-1.105,1.764-1.492l13.062-7.093
