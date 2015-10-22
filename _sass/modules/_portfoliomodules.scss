@@ -101,15 +101,15 @@ z-index: 2;
     text-align: center;
     display: inline; /*Change to Block*/
     width: 100%;
-    color: #F2F2F2;
+    color: #ffffff;
     text-decoration: none;
     font-family: $font-default;
     font-weight: 900;
+    letter-spacing: -2px;
     font-size: 2em;
     word-wrap: normal;
     opacity: 0;
-    display: none;
-    visibility: hidden; /*Hide this when ready*/
+    margin: 10px 0 0 0;
 
 }
 .overlay span:before {

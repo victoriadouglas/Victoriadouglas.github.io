@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Flying Cyborg Laswer Dolphins"
+title: "Flying Cyborg Laser Dolphins"
 category: portfolio
 tags: illustration
 thumbnail: /portfolio/thumbs/dolphins.jpg

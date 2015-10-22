@@ -1,0 +1,52 @@
+p::selection {
+  color:#29ABE2;/* WebKit/Blink Browsers */
+}
+p::-moz-selection {
+  color:#29ABE2; /* Gecko Browsers */
+}
+
+
+h1::selection {
+  color: #29ABE2; /* WebKit/Blink Browsers */
+}
+h1::-moz-selection {
+  color: #29ABE2; /* Gecko Browsers */
+}
+
+h2::selection {
+  color: purple; /* WebKit/Blink Browsers */
+}
+h2::-moz-selection {
+  color: purple; /* Gecko Browsers */
+}
+
+h3::selection {
+  color: purple; /* WebKit/Blink Browsers */
+}
+h3::-moz-selection {
+  color: purple; /* Gecko Browsers */
+}
+
+
+h4::selection {
+  color: purple; /* WebKit/Blink Browsers */
+}
+h4::-moz-selection {
+  color: purple; /* Gecko Browsers */
+}
+
+
+h5::selection {
+  color: purple; /* WebKit/Blink Browsers */
+}
+h5::-moz-selection {
+  color: purple; /* Gecko Browsers */
+}
+
+
+h6::selection {
+  color: purple; /* WebKit/Blink Browsers */
+}
+h6::-moz-selection {
+  color: purple; /* Gecko Browsers */
+}
