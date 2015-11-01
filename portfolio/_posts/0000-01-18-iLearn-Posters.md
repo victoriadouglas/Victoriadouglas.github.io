@@ -2,9 +2,11 @@
 layout: post
 title: "Rejected iLearn Posters"
 category: portfolio
-tags: design
+tags: illustration
 thumbnail: /portfolio/thumbs/brainhoney.jpg
 full: /portfolio/full/brainhoney.jpg
+orientation: portrait
+size: tabloid
 medium:
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis, orci non efficitur luctus, ex felis hendrerit odio, sit amet suscipit tellus lectus et nisl. Sed quis neque eget justo tempus luctus. Suspendisse ultricies semper libero, at laoreet orci hendrerit et. Sed interdum sollicitudin vehicula. Sed dictum sollicitudin orci consequat faucibus. Phasellus interdum egestas aliquam. Sed semper dictum lacus. Nulla quis ipsum magna.
 ---
