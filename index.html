@@ -4,7 +4,13 @@ title: Jared Sellers
 subtitle: Illustrator, Designer, Kendama Enthusiast
 ---
 
-{% include portfolio-splash.html %}
+<div class="hanger">
+	  {% for post in site.tags.illustration %}<div class="foliocontainer">
+    <div class="overlay-shadow">
+	<a class="overlay" href="{{ post.url }}"><img class="art" src="{{ post.thumbnail }}"/></a>
+</div></div>{% endfor %}
+</div>
+
 {% include sandbox.html %}
 
 

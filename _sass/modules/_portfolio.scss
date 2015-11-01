@@ -1,0 +1,81 @@
+.foliocontainer {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width:100%;
+    vertical-align:text-bottom;
+}
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+    .foliocontainer {
+    width:100%;
+}   
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    .foliocontainer {
+    width:50%;
+}   
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+    .foliocontainer {
+    width:25%;
+}   
+    }
+
+.overlay-shadow {
+    background-color: black;
+    margin: 0px 0 -1px 0;
+}
+
+.overlay {
+  opacity: 1;
+    -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s; 
+}
+.overlay span {
+    text-align: center;
+    display: inline; /*Change to Block*/
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: $font-default;
+    font-weight: 900;
+    letter-spacing: -2px;
+    font-size: 2em;
+    word-wrap: normal;
+    opacity: 0;
+}
+
+.overlay-shadow:hover .overlay,
+.overlay:focus {
+  top: 0;
+  opacity: .7;
+}
+
+.art {
+    width:100%;
+    height: auto;
+    position:relative;
+    margin: 0 auto;
+    vertical-align: top;
+    -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s; 
+}
+
+.hanger {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0px;
+    background-color: white;
+}

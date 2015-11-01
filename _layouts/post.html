@@ -3,19 +3,14 @@ layout: headerfooter
 ---
 {% include nextprev.html %}
         <div class="container">
-    <div class="container-50 card-place">
-        {% include exitsign.html %}
-        {% include gallery-card.html%}
-    </div>
-    <div class="container-50">
-<div class="picture-frame">
+<div class="picture-frame {{ page.orientation }}-{{ page.size }}">
   <div class="matte">
     <img class="framedart" src="{{ page.full }}">
   </div>
 </div>
-    </div>
 </div>
-
 <div class="container">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
   {{ content }}
 </div>
