@@ -1,8 +1,5 @@
 .about-banner {
 width: 100%;
-    background-image: url("/img/about-banner2.jpg");
-    background-size:cover;
-    background-position: right -0px top;
     float: right;
     height: auto;
     padding: 5vw 0 5vw 0;
@@ -46,3 +43,41 @@ opacity: 0;
 icon {
     width:75px;
 }
+
+
+/* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+.figurehead {
+position: fixed;
+    bottom: 0;
+    right: 10px;
+    z-index: -10;
+    width: 100%;
+}
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+.figurehead {
+position: fixed;
+    bottom: 0;
+    right: 10px;
+    z-index: -10;
+    width: 50%;
+}
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+.figurehead {
+position: fixed;
+    bottom: 0;
+    right: 10px;
+    z-index: -10;
+    width: auto;
+}
+
+        
+    }
