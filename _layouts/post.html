@@ -2,7 +2,7 @@
 layout: headerfooter
 ---
         <div class="container">
-<div class="container-60">
+<div class="container-60-{{ page.orientation }}">
 <div class="picture-frame {{ page.orientation }}-{{ page.size }}">
   <div class="matte">
     <img class="framedart" src="{{ page.full }}">
@@ -11,7 +11,7 @@ layout: headerfooter
             </div>
 <div class="container-40">
 <div class="container-90">
-    <h1 class="potitle">{{ page.title }}</h1>
+    <h3 class="potitle">{{ page.title }}</h3>
 <p>{{ page.description }}</p>
     </div>
 </div>

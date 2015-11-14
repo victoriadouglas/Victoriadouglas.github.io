@@ -1,7 +1,7 @@
 .picture-frame {
   background-color:blue;
   width: 80%;
-  border:black solid 40px;
+  border:black solid 3vw;
       -webkit-box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
 -moz-box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
 box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
@@ -25,8 +25,29 @@ box-shadow: inset 0px 0px 18px -3px rgba(0,0,0,0.75);
 }
 
 
-.container-60 {
-    width:59%;
+.potitle {
+margin-bottom: 30px;
+}
+
+/* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+.potitle {
+    margin-top: 40px;
+}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+.potitle {
+    margin-top: 40px;
+}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 1100px) {
+
+.container-60-landscape {
+    width:100%;
     display: inline-block;
     margin:0px;
     vertical-align: top;
@@ -43,7 +64,11 @@ box-shadow: inset 0px 0px 18px -3px rgba(0,0,0,0.75);
     margin:0 auto;
     vertical-align: middle;
 }
-
-.potitle {
-margin-bottom: 30px;
+    .container-60-portrait {
+    width:59%;
+    margin:0px;
+    display: inline-block;
+    vertical-align: top;
 }
+
+    }
