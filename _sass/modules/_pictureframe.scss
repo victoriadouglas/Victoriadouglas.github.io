@@ -24,26 +24,26 @@ box-shadow: inset 0px 0px 18px -3px rgba(0,0,0,0.75);
  margin-bottom: 100px;
 }
 
-.portrait-square {
-width:70%;
+
+.container-60 {
+    width:59%;
+    display: inline-block;
+    margin:0px;
+    vertical-align: top;
 }
 
-.portrait-letter {
-width:60%;
+.container-40 {
+    width:39%;
+    display: inline-block;
+    margin:20px 0 0 0;
 }
 
-.portrait-tabloid {
-width:50%;
+.container-90 {
+    width:90%;
+    margin:0 auto;
+    vertical-align: middle;
 }
 
-.landscape-square {
-width:70%;
-}
-
-.landscape-letter {
-width:90%;
-}
-
-.landscape-tabloid {
-width:100%;
+.potitle {
+margin-bottom: 30px;
 }
