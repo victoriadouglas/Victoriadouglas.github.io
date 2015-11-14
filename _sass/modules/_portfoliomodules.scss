@@ -152,6 +152,10 @@ height: auto;
 .prev {
 }
 
+.card-place {
+    vertical-align: top;
+}
+
 .prev, .next {
          -o-transition:.2s;
   	-ms-transition:.2s;
@@ -196,10 +200,6 @@ position: fixed;
 
 }
 
-.next-pos, .prev-pos {
-  width:5vw;
-}
-
 .next-pos {
 float:left;
     padding: 1%;
@@ -210,6 +210,23 @@ float: right;
 padding: 1%;
 }
 
-.card-place {
-    vertical-align: top;
+
+/* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        .next-pos, .prev-pos {
+  width:9vw;
 }
+    }
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .next-pos, .prev-pos {
+  width:8vw;
+}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 1100px) {
+        .next-pos, .prev-pos {
+  width:5vw;
+}
+    }
