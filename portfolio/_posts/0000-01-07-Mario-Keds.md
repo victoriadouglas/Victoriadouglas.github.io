@@ -5,18 +5,7 @@ category: portfolio
 tags: illustration
 thumbnail: /portfolio/thumbs/keds.jpg
 full: /portfolio/full/keds.jpg
-medium:
+medium: Formulated Acrylic on canvas shoe
 orientation: landscape
-size: letter
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis, orci non efficitur luctus, ex felis hendrerit odio, sit amet suscipit tellus lectus et nisl. Sed quis neque eget justo tempus luctus. Suspendisse ultricies semper libero, at laoreet orci hendrerit et. Sed interdum sollicitudin vehicula. Sed dictum sollicitudin orci consequat faucibus. Phasellus interdum egestas aliquam. Sed semper dictum lacus. Nulla quis ipsum magna.
+description: One pair of many many others, from my time doing anime conventions and really focusing heavily on creating quality custom shoes. I got out of the scene when the cost outweighed the benefits, but I am still open to the occasional commission.
 ---
-
-<h1>Process.</h1>
-This is the first post!
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Aenean vitae commodo justo, in hendrerit diam. Ut vitae congue quam, rhoncus accumsan orci. 
-Integer auctor nulla eget sodales bibendum. Donec vel scelerisque purus. 
-Curabitur ac eleifend lacus. Sed iaculis velit non vehicula semper. 
-Aliquam erat volutpat. Proin sed metus sit amet urna tincidunt semper. 
-Phasellus laoreet est eu ex placerat suscipit a varius nisi.

@@ -1,22 +1,11 @@
 ---
 layout: post
-title: "Rejected iLearn Posters"
+title: "Rejected iLearn Poster"
 category: portfolio
 tags: illustration
 thumbnail: /portfolio/thumbs/brainhoney.jpg
 full: /portfolio/full/brainhoney.jpg
 orientation: portrait
-size: tabloid
-medium:
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis, orci non efficitur luctus, ex felis hendrerit odio, sit amet suscipit tellus lectus et nisl. Sed quis neque eget justo tempus luctus. Suspendisse ultricies semper libero, at laoreet orci hendrerit et. Sed interdum sollicitudin vehicula. Sed dictum sollicitudin orci consequat faucibus. Phasellus interdum egestas aliquam. Sed semper dictum lacus. Nulla quis ipsum magna.
+medium: Digital
+description: My boss didn't appreciate my take on a campaign to promote the new online-learning site for our school, BYU Idaho. The system has used the Brainhoney management system for years, and moving away from it has been greeting by cheers from the student body.
 ---
-
-<h1>Process.</h1>
-This is the first post!
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Aenean vitae commodo justo, in hendrerit diam. Ut vitae congue quam, rhoncus accumsan orci. 
-Integer auctor nulla eget sodales bibendum. Donec vel scelerisque purus. 
-Curabitur ac eleifend lacus. Sed iaculis velit non vehicula semper. 
-Aliquam erat volutpat. Proin sed metus sit amet urna tincidunt semper. 
-Phasellus laoreet est eu ex placerat suscipit a varius nisi.

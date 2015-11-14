@@ -7,16 +7,6 @@ thumbnail: /portfolio/thumbs/dama.jpg
 full: /portfolio/full/dama.jpg
 orientation: portrait
 size: tabloid
-medium:
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis, orci non efficitur luctus, ex felis hendrerit odio, sit amet suscipit tellus lectus et nisl. Sed quis neque eget justo tempus luctus. Suspendisse ultricies semper libero, at laoreet orci hendrerit et. Sed interdum sollicitudin vehicula. Sed dictum sollicitudin orci consequat faucibus. Phasellus interdum egestas aliquam. Sed semper dictum lacus. Nulla quis ipsum magna.
+medium: Craft, spray paint, oil-based pens
+description: Can I just say that I love kendamas? The japanese cup and ball skill toy has been a go-to for me since being exposed to it in 2013. There is a relaxation that comes with focus. Doing custom paint jobs were inevitable, and I will be posting any additional customs here as they happen.
 ---
-
-<h1>Process.</h1>
-This is the first post!
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Aenean vitae commodo justo, in hendrerit diam. Ut vitae congue quam, rhoncus accumsan orci. 
-Integer auctor nulla eget sodales bibendum. Donec vel scelerisque purus. 
-Curabitur ac eleifend lacus. Sed iaculis velit non vehicula semper. 
-Aliquam erat volutpat. Proin sed metus sit amet urna tincidunt semper. 
-Phasellus laoreet est eu ex placerat suscipit a varius nisi.

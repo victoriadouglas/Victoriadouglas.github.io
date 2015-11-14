@@ -5,18 +5,7 @@ category: portfolio
 tags: illustration
 thumbnail: /portfolio/thumbs/appleseed.jpg
 full: /portfolio/full/appleseed.jpg
-medium:
+medium: 3D modelling
 orientation: landscape
-size: tabloid
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis, orci non efficitur luctus, ex felis hendrerit odio, sit amet suscipit tellus lectus et nisl. Sed quis neque eget justo tempus luctus. Suspendisse ultricies semper libero, at laoreet orci hendrerit et. Sed interdum sollicitudin vehicula. Sed dictum sollicitudin orci consequat faucibus. Phasellus interdum egestas aliquam. Sed semper dictum lacus. Nulla quis ipsum magna.
+description: A conceptual piece for a BlenderGuru cgi competition. The idea was to create a futuristic vehicle, and I created this little agricultural helper robot. It was a great learning experience in Blender, which is the modelling software that I use.
 ---
-
-<h1>Process.</h1>
-This is the first post!
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Aenean vitae commodo justo, in hendrerit diam. Ut vitae congue quam, rhoncus accumsan orci. 
-Integer auctor nulla eget sodales bibendum. Donec vel scelerisque purus. 
-Curabitur ac eleifend lacus. Sed iaculis velit non vehicula semper. 
-Aliquam erat volutpat. Proin sed metus sit amet urna tincidunt semper. 
-Phasellus laoreet est eu ex placerat suscipit a varius nisi.

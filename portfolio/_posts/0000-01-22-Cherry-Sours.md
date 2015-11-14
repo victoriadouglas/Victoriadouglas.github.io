@@ -6,17 +6,6 @@ tags: illustration
 thumbnail: /portfolio/thumbs/cherrysours.jpg
 full: /portfolio/full/cherrysours.jpg
 orientation: portrait
-size: tabloid
-medium:
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis, orci non efficitur luctus, ex felis hendrerit odio, sit amet suscipit tellus lectus et nisl. Sed quis neque eget justo tempus luctus. Suspendisse ultricies semper libero, at laoreet orci hendrerit et. Sed interdum sollicitudin vehicula. Sed dictum sollicitudin orci consequat faucibus. Phasellus interdum egestas aliquam. Sed semper dictum lacus. Nulla quis ipsum magna.
+medium: Digital
+description: An early study in color and lighting without a reference. I don't do a lot without any reference, even for conceptual art I'll try to compile references for materials, environments or fabrics for folds. This was completely from my head, and a departure from how I normally work. It can be a breath of fresh air to step away from the routine.
 ---
-
-<h1>Process.</h1>
-This is the first post!
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Aenean vitae commodo justo, in hendrerit diam. Ut vitae congue quam, rhoncus accumsan orci. 
-Integer auctor nulla eget sodales bibendum. Donec vel scelerisque purus. 
-Curabitur ac eleifend lacus. Sed iaculis velit non vehicula semper. 
-Aliquam erat volutpat. Proin sed metus sit amet urna tincidunt semper. 
-Phasellus laoreet est eu ex placerat suscipit a varius nisi.
