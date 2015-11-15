@@ -15,3 +15,40 @@ height:10vh;
 width:100vw;
 
 }
+
+/* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+.figurehead2 {
+position: fixed;
+    bottom: 0;
+    right: 10px;
+    z-index: -10;
+    width: 100%;
+}
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+.figurehead2 {
+position: fixed;
+    bottom: 0;
+    right: 10px;
+    z-index: -10;
+    width: 60%;
+}
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+.figurehead2 {
+position: fixed;
+    bottom: 0;
+    right: 10px;
+    z-index: -10;
+    width: auto;
+}
+
+        
+    }
