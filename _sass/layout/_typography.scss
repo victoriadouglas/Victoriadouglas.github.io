@@ -5,88 +5,27 @@ h1, h2, h3, h4, h5, h6, p{
     -webkit-margin-end: 0px;
 }
 
-
-
-
 h1 {
-    font-size: $font-header;
-    font-family: $font-default;
-    font-weight:$heavy;
-    color:$text-color-dark;
+  border: solid 30px #222;
+  
+  width:auto;
+  padding:20px 20px;
+  margin:0 auto;
+  margin-top: 44px;
+    margin-bottom: 20px;
+  text-align: left;
+  font-family: 'Raleway', 'Helvetica', 'Verdana';
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 11rem;
+  line-height:.9;
+    letter-spacing: 1px;
 }
 
 h2 {
-    font-size:$font-header2;
-    font-family: $font-default;
-    font-weight:$light;
-    color:$text-color-mid;
+    font-family: 'Raleway', 'Helvetica', 'Verdana';
+    font-weight: 900;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: -2px;
 }
-
-h3 {
-    font-size: $font-header;
-    font-family: $font-default;
-    font-weight:$heavy;
-    color:$text-color-dark;
-}
-
-h4 {
-    font-size: $font-header4;
-    font-family: $font-default;
-    font-weight:$light;
-    color:$text-color-mid;
-    margin: 0px;
-}
-
-h5 {
-    
-}
-
-h6 {
-    font-family: $font-default;
-    font-weight: $light;
-    font-size:$font-footer;
-}
-
-p {
-    font-family:$font-default;
-    font-weight:$light;
-    font-size: $font-paragraph;
-    line-height: 1.4em;
-    color:$text-color-dark;
-}
-
-
-a {
-    text-decoration: none;
-    color:$text-color-dark;
-}
-
-.title h1 {
-margin-bottom: 10px;
-}
-
-/* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
-
-                h1 {
-           font-size:15vw; 
-        }
-        
-    }
-
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-
-        
-                        h1 {
-           font-size:5em; 
-        }
-    }
-
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
-                h1 {
-           font-size:4em; 
-        }
-        
-    }

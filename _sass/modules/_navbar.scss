@@ -4,112 +4,42 @@
     width: 100%;
     height:auto;
     background: white;
+    top:0;
 }
 
-.nav ul, footer ul {
-    font-family:'Lato', 'Arial', 'Sans-Serif';
-    font-weight:800;
+.nav ul {
+    font-family:'Raleway', 'Arial', 'Sans-Serif';
+    font-weight:$heavy;
     padding:0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: $heavy;
     margin: 0px;
 
 }
-.navbar-right ul li{
-    display: inline-block;
-    padding: 5px 5px 5px 5px;
-}
 
-.navbar-left ul li {
+.links ul li {
     display: inline-block;
     margin-top: 10px;
 }
 
 
-.navbar-left {
+.links {
     display: inline-block;
     float: left;
 }
 
-.navbar-right {
-    display: inline-block;
-    float: right;
-    padding: 0px;
- 
-}
-
-
-@media (max-width: 800px) {
-  .navbar-right {
-float: left;
-  }
-}
-
-
 .sitelink a {
     text-decoration: none;
-    color: black;  	
+    color: #222;  	
     -o-transition:.2s;
   	-ms-transition:.2s;
   	-moz-transition:.2s;
   	-webkit-transition:.2s;
   	transition: .2s;
-    padding: 10px;
+    padding: 13px 13px;
 }
 
 .sitelink a:hover {
     color:white;
-    background-color: black;
-}
-
-
-
-
-
-
-
-
-
-#icon {
-  width:30px;
-}
-
-.navlink {
-  	-o-transition:.2s;
-  	-ms-transition:.2s;
-  	-moz-transition:.2s;
-  	-webkit-transition:.2s;
-  	transition: .2s;
-}
-
-.behance, .dribbble, .facebook, .github, .linkedin, .nav-logo {
-  	-o-transition:.2s;
-  	-ms-transition:.2s;
-  	-moz-transition:.2s;
-  	-webkit-transition:.2s;
-  	transition: .2s;
-}
-
-.navlink:hover {
-    
-   .behance{
-    fill:#33abdb;
-  }
-    .dribbble {
-    fill:#fc89b1;
-  }
-    .facebook {
-    fill:#4b70ab;
-  }
-    .github {
-    fill:#333333;
-  }    
-  .linkedin {
-    fill:#0087be;
-  }
-  
-  .nav-logo {
-    fill:white;
-  }
-
+    background-color: #222;
 }

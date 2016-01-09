@@ -1,7 +1,61 @@
+.footer ul li{
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+}
+
 .footer {
-    margin: 100px 0px 0px 0px;
-    h6 {
-        margin:0px;
-        color:#808080;
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    padding: 0px;
+    border-top: 1px solid #222;
+    width: 100%;
+    
+    p {
+      margin-top: 10px;  
     }
+}
+
+#icon {
+  width:30px;
+}
+
+.navlink {
+  	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+}
+
+.behance, .dribbble, .facebook, .github, .linkedin, .nav-logo {
+  	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+}
+
+.navlink:hover {
+    
+   .behance{
+    fill:#33abdb;
+  }
+    .dribbble {
+    fill:#fc89b1;
+  }
+    .facebook {
+    fill:#4b70ab;
+  }
+    .github {
+    fill:#333333;
+  }    
+  .linkedin {
+    fill:#0087be;
+  }
+  
+  .nav-logo {
+    fill:white;
+  }
+
 }
