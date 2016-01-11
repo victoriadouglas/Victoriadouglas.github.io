@@ -12,65 +12,49 @@
     animation-duration: 1s;
     }
     
-    .animated.hinge {
-        -webkit-animation-duration: 1s;
-        -moz-animation-duration: 1s;
-        -ms-animation-duration: 1s;
-        -o-animation-duration: 1s;
-        animation-duration: 1s;
-    }
-    
-    @-webkit-keyframes fadeInDown {
+    @-webkit-keyframes fade {
         0% {
-    		opacity: 0;
-    		-webkit-transform: translateY(-20px);
+    		background-color: #222;
     	}
     
     	100% {
-    		opacity: 1;
-    		-webkit-transform: translateY(0);
+    		background-color:none;
     	}
     }
     
-    @-moz-keyframes fadeInDown {
+    @-moz-keyframes fade {
     	0% {
-    		opacity: 0;
-    		-moz-transform: translateY(-20px);
+    		background-color: #222;
     	}
     
     	100% {
-    		opacity: 1;
-    		-moz-transform: translateY(0);
+    		background-color:none;
     	}
     }
     
-    @-o-keyframes fadeInDown {
+    @-o-keyframes fade {
     	0% {
-    		opacity: 0;
-    		-o-transform: translateY(-20px);
+    		background-color: #222;
     	}
     
     	100% {
-    		opacity: 1;
-    		-o-transform: translateY(0);
+    		background-color:none;
     	}
     }
     
     @keyframes fadeInDown {
     	0% {
-    		opacity: 0;
-    		transform: translateY(-20px);
+    		background-color: #222;
     	}
     
     	100% {
-    		opacity: 1;
-    		transform: translateY(0);
+    		background-color:none;
     	}
     }
     
-    .fadeInDown {
-    	-webkit-animation-name: fadeInDown;
-    	-moz-animation-name: fadeInDown;
-    	-o-animation-name: fadeInDown;
-    	animation-name: fadeInDown;
+    .fade {
+    	-webkit-animation-name: fade;
+    	-moz-animation-name: fade;
+    	-o-animation-name: fade;
+    	animation-name: fade;
     }
