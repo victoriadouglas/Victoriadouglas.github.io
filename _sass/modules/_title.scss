@@ -1,4 +1,4 @@
-
+/*
 .fromtop {
     transform-origin: center;
 }
@@ -14,6 +14,8 @@
     -ms-animation-duration: .5s;
     -o-animation-duration: .5s;
     animation-duration: .5s;
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s;
     }
     
     @-webkit-keyframes fade {
@@ -31,7 +33,7 @@
     @-moz-keyframes fade {
     	0% {
     		background-color: $text-color-dark;
-    		-webkit-transform: scaleY(0);
+    		-webkit-transform: scaleY(0.1);
     	}
     
     	100% {
@@ -43,7 +45,7 @@
     @-o-keyframes fade {
     	0% {
     		background-color: $text-color-dark;
-    		-webkit-transform: scaleY(0);
+    		-webkit-transform: scaleY(0.1);
     	}
 
     	100% {
@@ -55,7 +57,7 @@
     @keyframes fade {
     	0% {
     		background-color: $text-color-dark;
-    		-webkit-transform: scaleY(0);
+    		-webkit-transform: scaleY(0.1);
     	}
 
     	100% {
@@ -70,3 +72,4 @@
     	-o-animation-name: fade;
     	animation-name: fade;
     }
+*/
