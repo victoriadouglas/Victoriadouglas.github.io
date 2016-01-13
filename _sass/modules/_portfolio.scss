@@ -2,23 +2,26 @@
     display:inline-block;
     margin: 0;
     width:100%;
-    padding: 0;
+    padding: 10px 0 0 0;
     vertical-align: bottom;
 }
 
 /* Larger than mobile */
-@media (min-width: 400px) {
-.thumbnail {
-    width:48%;
-    padding: 1%;
-}
-}
+@media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+.thumbnail {
+    width:48%;
+    margin: 1%;
+}}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+.thumbnail {
+    width:31.3%;
+    margin: 1%;
+}}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
@@ -68,7 +71,7 @@
 
 .ih-item.square {
   position: relative;
-  
+  /*border: 15px solid #222;*/
 }
 
 .ih-item.square.effect3 {
@@ -109,7 +112,7 @@ filter: blur(0px);
   text-transform: uppercase;
   color: #fff;
   text-align: center;
-  padding: 10px 10px 0 4px;
+  padding: 16px 10px 0 4px;
   margin: 4px 0 0 0;
 }
 .ih-item.square.effect3 a:hover .info {
