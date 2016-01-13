@@ -4,6 +4,7 @@
     right:0;
     left:0;
     z-index: 1001;
+    pointer-events: none;
 }
 
 .xmark {
@@ -11,6 +12,7 @@
     width:40px;
     float: right;
     margin: 3px 0 0 10px;
+    pointer-events: all;
 }
 
 .animated {
