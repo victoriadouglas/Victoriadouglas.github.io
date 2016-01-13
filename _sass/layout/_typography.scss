@@ -6,17 +6,18 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 h1 {
-  border: solid 30px #222;
+  border: solid 30px $text-color-dark;
   
   width:auto;
+    color:$text-color-dark;
   padding:20px 20px;
   margin:0 auto;
   margin-top: 44px;
     margin-bottom: 20px;
   text-align: left;
-  font-family: 'Raleway', 'Helvetica', 'Verdana';
+  font-family:$font-default;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight:$heavy;
   font-size: 11rem;
   line-height:.9;
     letter-spacing: 1px;
@@ -25,9 +26,15 @@ h1 {
 }
 
 h2 {
-    font-family: 'Raleway', 'Helvetica', 'Verdana';
-    font-weight: 900;
+    font-family:$font-default;
+    font-weight:$heavy;
+    color: $text-color-dark;
     font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: -2px;
+}
+
+p {
+    color:$text-color-dark;
+    font-family:$font-default;
 }
