@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Portal Lichtenstein"
+title: "Pop Portal Lichtenstein"
 category: portfolio
 tags: illustration
 thumbnail: /portfolio/thumbs/turret.jpg

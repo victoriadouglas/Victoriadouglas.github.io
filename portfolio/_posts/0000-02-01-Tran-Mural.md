@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Studio Mural"
+title: "Mural"
 category: portfolio
 tags: illustration
 thumbnail: /portfolio/thumbs/mural.jpg

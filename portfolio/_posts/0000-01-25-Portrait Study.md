@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Portrait Study"
+title: "Portrait #1"
 category: portfolio
 tags: illustration
 thumbnail: /portfolio/thumbs/portrait.jpg
