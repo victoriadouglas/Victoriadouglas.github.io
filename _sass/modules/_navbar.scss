@@ -3,8 +3,8 @@
     z-index: 1000;
     width: 100%;
     height:auto;
-    background: white;
     top:0;
+    background:white;
 }
 
 .nav ul {
@@ -42,4 +42,8 @@
 .sitelink a:hover {
     color:white;
     background-color: #222;
+}
+
+.backchange {
+background: white;
 }
