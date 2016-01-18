@@ -3,52 +3,42 @@ layout: default
 title: Jared Sellers
 subtitle: Illustrator, Designer, Kendama Enthusiast
 ---
-<div class="container">
-    <div style="text-align:center; margin:20vh 0 30vh 0;">
-<h2>Illustration, Print and Web</h2>
-<input class="button" type="button" value="Portfolio">
-        </div>
+<div class="container splash">
+    <div class="checker"></div>
+    <img id="bgvid" src="img/Android%20cybercity.png"/>
+<div style="text-align:center;">
+<h2>Illustration & Design</h2>
 </div>
-
-<!--
-<div id="bgback"></div>
-<video autoplay loop poster="black.jpg" id="bgvid">
-    <source src="polina.webm" type="video/webm">
-    <source src="/img/background.mp4" type="video/mp4">
-</video>
-<style>video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
+<style>#bgvid { 
+    width: 100%;
     height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover; 
-    opacity: .3;
+    opacity: 1;
+    vertical-align: middle;
 }
 
-#bgback { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -99;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(/img/background-checker-white.png) repeat;
+    .splash h2 {
+     background: rgba(0,0,0,0);
+  position: absolute;
+  top: -12px; right: 0; bottom: 0; left: 0;
+        color: white;
+    }
+    
+    .splash {
+     vertical-align: middle;
+    overflow: hidden;
+    }
+    
+     .checker {
+    background-image:url(/img/background-checker-black.png);
     background-repeat: repeat;
-}</style>
+    }
+    
+   .checker { 
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+    
 
--->
+}</style>
+</div>
