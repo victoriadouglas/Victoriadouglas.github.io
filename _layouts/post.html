@@ -1,25 +1,21 @@
 ---
 layout: headerfooter
 ---
-        <div class="container">
-<div class="container-60-{{ page.orientation }}">
-<div class="picture-frame {{ page.orientation }}-{{ page.size }}">
-  <div class="matte">
-    <img class="framedart" src="{{ page.full }}">
-  </div>
-</div>
-            </div>
-<div class="container-40-{{ page.orientation }}">
-<div class="container-90">
-    <h3 class="potitle">{{ page.title }}</h3>
-    <h2 class="medium">{{ page.medium }}</h2>
-<p>{{ page.description }}</p>
-    </div>
-</div>
-</div>
-
 <div class="container">
+{% include xmark.html %}
+    <div class="animate fade fromtop">
+    <h1>{{ page.title }}</h1>
+    </div>
+    <img class="art" src="{{ page.full }}">
+    
+    
+    <div class="row">
+            <h2>Medium//{{ page.medium }}</h2>
+    </div>
+    <div class="row">
+        <div class="one-half column">
+            <p>{{ page.description }}</p>
+        </div>
+    </div>
 {{ content }}
 </div>
-{% include nextprev.html %}
-<div style="height:150px"></div>

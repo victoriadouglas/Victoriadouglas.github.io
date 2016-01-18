@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Custom Kendamas"
+title: "Kendamas"
 category: portfolio
 tags: illustration
 thumbnail: /portfolio/thumbs/dama.jpg

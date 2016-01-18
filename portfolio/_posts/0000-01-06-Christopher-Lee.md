@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Christopher Lee"
+title: "Lee"
 category: portfolio
 tags: illustration
 thumbnail: /portfolio/thumbs/lee.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Marriage Invites"
+title: "Marriage!"
 category: portfolio
 tags: illustration
 thumbnail: /portfolio/thumbs/invite.jpg

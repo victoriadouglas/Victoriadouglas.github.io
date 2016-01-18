@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Origami"
+title: "Origami"
 category: portfolio
 tags: illustration
 thumbnail: /portfolio/thumbs/reddit.jpg

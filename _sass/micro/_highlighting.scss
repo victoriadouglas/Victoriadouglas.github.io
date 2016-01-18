@@ -1,16 +1,16 @@
 p::selection {
-  color:#29ABE2;/* WebKit/Blink Browsers */
+  color:$text-color-accent;/* WebKit/Blink Browsers */
 }
 p::-moz-selection {
-  color:#29ABE2; /* Gecko Browsers */
+  color:$text-color-accent; /* Gecko Browsers */
 }
 
 
 h1::selection {
-  color: #29ABE2; /* WebKit/Blink Browsers */
+  color: $text-color-accent; /* WebKit/Blink Browsers */
 }
 h1::-moz-selection {
-  color: #29ABE2; /* Gecko Browsers */
+  color: $text-color-accent; /* Gecko Browsers */
 }
 
 h2::selection {

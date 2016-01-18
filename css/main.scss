@@ -4,28 +4,25 @@
 
 //Base Partials
 
+@import 'base/normalize';
 @import 'base/base';
+@import 'base/skeleton';
 @import 'base/helpers';
 @import 'base/variables';
 @import 'base/sandbox';
 
 //Layout Partials
 
-@import 'layout/layout';
 @import 'layout/typography';
-@import 'layout/colors';
 
 //Modules (This is the goods.)
 
 @import 'modules/title';
 @import 'modules/navbar';
-@import 'modules/footer';
 @import 'modules/portfolio';
-@import 'modules/portfoliomodules';
-@import 'modules/blog';
-@import 'modules/blogposts';
-@import 'modules/pictureframe';
-@import 'modules/about';
+@import 'modules/footer';
+@import 'modules/portfoliopage';
+@import 'modules/xmark';
 
 //Microinteractions (If I'm not lazy I will get to this.)
 
