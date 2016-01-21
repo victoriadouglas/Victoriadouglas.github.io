@@ -47,3 +47,18 @@ p {
    font-weight: 400;
    font-style: normal;
 }
+
+a {
+    color:$text-color-accent;
+    font-family: "Anonymous Pro","Raleway","Verdana";
+    -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+}
+
+a:hover {
+    color:white;
+    background-color: #222;
+}

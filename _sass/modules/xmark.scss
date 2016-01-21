@@ -25,10 +25,11 @@
 }
 
 .xlink {
+    .x {fill:$text-color-accent;}
 }
 
 .xlink:hover {
-    .backcircle {fill:red;}
+    .backcircle {fill:$text-color-accent;}
     .x {fill:white;}
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg); 
