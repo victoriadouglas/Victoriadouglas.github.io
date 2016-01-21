@@ -5,6 +5,3 @@ $(window).scroll(function() {
     $('nav').removeClass('backchange');
   }
 })
-
-var element = document.getElementById("header");
-element.innerHTML = "Poo Header";

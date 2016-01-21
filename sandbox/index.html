@@ -1,0 +1,177 @@
+---
+layout: default
+title: Jared Sellers
+subtitle: Illustrator, Designer, Kendama Enthusiast
+---
+
+  <div class="parallax-container">
+    <div class="parallax-layer layer-0" data-parallax-speed="0.05" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-1" data-parallax-speed="0.1" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-2" data-parallax-speed="0.3" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-3" data-parallax-speed="0.5" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-4" data-parallax-speed="0.7" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-5" data-parallax-speed="1" data-max-scroll="1000"></div>
+  </div>
+<div style="margin-top:100vh;"></div>
+  <div class="content"></div>
+<div class="container">
+    <div class="row">
+        <div class="one-half column">
+            <h2>Who I am</h2>
+            <p>I am an illustrator and web designer currently living in Rexburg, idaho. I'm a student at BYU Idaho in the illustration program, specializing in digital illustration. Outside of studies, I work for the school as a web designer and programmer. I love what I do, and believe there is no substitute for hard, honest work. Myers Briggs would call me an ISFP. </p>
+            <h2>What I Use</h2>
+            <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Bootstrap</li>
+            <li>Sass</li>
+            <li>Jekyll</li>
+            <li>Photoshop CC</li>
+            <li>Autodesk Sketchbook</li>
+            <li>Blender</li>
+            <li>Wacom Intuos 4</li>
+            </ul>
+            
+        </div>
+        <div class="one-half column">
+            <img src="/img/mecoloredlores.gif"/>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<style>
+    .fixhead {
+    position: fixed;
+    z-index: -100;
+    }
+    
+    .parallax-container {
+  position: fixed;
+  overflow: visible;
+  width: 100%;
+  height: 850px;
+}
+.parallax-layer {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-position: bottom center;
+  background-size: 2000px 910px;
+}
+  .layer-0 {
+
+    z-index: 5;
+    background-image: url(/img/parallax6.png);
+  }
+  .layer-1 {
+
+    z-index: 5;
+    background-image: url('/img/parallax5.png');
+  }
+  .layer-2 {
+
+    z-index: 10;
+    background-image: url('/img/parallax4.png');
+  }
+  .layer-3 {
+
+    z-index: 15;
+    background-image: url('/img/parallax3.png');
+  }
+  .layer-4 {
+
+    z-index: 20;
+    background-image: url('/img/parallax2.png');
+  }
+  .layer-5 {
+
+    z-index: 25;
+    background-image: url('/img/parallax1.png');
+  }
+
+  
+.content {
+  position: absolute;
+  top: 100vh;
+  background: white;
+  width: 100%;
+  min-height: 1000px;
+}
+</style>
+
+<script>
+var ParallaxManager, ParallaxPart;
+
+ParallaxPart = (function() {
+  function ParallaxPart(el) {
+    this.el = el;
+    this.speed = parseFloat(this.el.getAttribute('data-parallax-speed'));
+    this.maxScroll = parseInt(this.el.getAttribute('data-max-scroll'));
+  }
+
+  ParallaxPart.prototype.update = function(scrollY) {
+    if (scrollY > this.maxScroll) { return; }
+    var offset = -(scrollY * this.speed);
+    this.setYTransform(offset);
+  };
+
+  ParallaxPart.prototype.setYTransform = function(val) {
+    this.el.style.webkitTransform = "translate3d(0, " + val + "px, 0)";
+    this.el.style.MozTransform    = "translate3d(0, " + val + "px, 0)";
+    this.el.style.OTransform      = "translate3d(0, " + val + "px, 0)";
+    this.el.style.transform       = "translate3d(0, " + val + "px, 0)";
+    this.el.style.msTransform     = "translateY(" + val + "px)";
+  };
+
+  return ParallaxPart;
+
+})();
+
+ParallaxManager = (function() {
+  ParallaxManager.prototype.parts = [];
+
+  function ParallaxManager(elements) {
+    if (typeof elements === 'array' && elements.length) {
+      this.elements = elements;
+    }
+    if (typeof elements === 'object' && elements.item) {
+      this.elements = Array.prototype.slice.call(elements);
+    } else if (typeof elements === 'string') {
+      this.elements = document.querySelectorAll(elements);
+      if (this.elements.length === 0) {
+        throw new Error("Parallax: No elements found");
+      }
+      this.elements = Array.prototype.slice.call(this.elements);
+    } else {
+      throw new Error("Parallax: Element variable is not a querySelector string, Array, or NodeList");
+    }
+    for (var i in this.elements) {
+      this.parts.push(new ParallaxPart(this.elements[i]));
+    }
+    window.addEventListener("scroll", this.onScroll.bind(this));
+  }
+
+  ParallaxManager.prototype.onScroll = function() {
+    window.requestAnimationFrame(this.scrollHandler.bind(this));
+  };
+
+  ParallaxManager.prototype.scrollHandler = function() {
+    var scrollY = Math.max(window.pageYOffset, 0);
+    for (var i in this.parts) { this.parts[i].update(scrollY); }
+  };
+
+  return ParallaxManager;
+
+})();
+
+new ParallaxManager('.parallax-layer');
+
+document.getElementsByTagName("H1")[0].setAttribute("class", "fixhead");
+</script>
