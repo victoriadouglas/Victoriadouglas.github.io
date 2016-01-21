@@ -12,7 +12,6 @@
     font-weight:$heavy;
     padding:0px;
     list-style: none;
-    font-weight: $heavy;
     margin: 0px;
 
 }
@@ -37,6 +36,8 @@
   	-webkit-transition:.2s;
   	transition: .2s;
     padding: 13px 13px;
+    font-family:'Raleway', 'Arial', 'Sans-Serif';
+    font-weight:$heavy;
 }
 
 .sitelink a:hover {
