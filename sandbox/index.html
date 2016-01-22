@@ -5,6 +5,7 @@ subtitle: Illustrator, Designer, Kendama Enthusiast
 ---
 
   <div class="parallax-container">
+    <div class="parallax-layer layer-h" data-parallax-speed="0" data-max-scroll="2000"></div>
     <div class="parallax-layer layer-0" data-parallax-speed="0.1" data-max-scroll="2000"></div>
     <div class="parallax-layer layer-1" data-parallax-speed="0.25" data-max-scroll="2000"></div>
     <div class="parallax-layer layer-2" data-parallax-speed="0.4" data-max-scroll="2000"></div>
@@ -175,7 +176,6 @@ ParallaxManager = (function() {
 
 new ParallaxManager('.parallax-layer');
 
-document.getElementsByTagName("H1")[0].removeAttribute("id", "fittext");
-document.getElementsByTagName("H1")[0].setAttribute("class", "fixhead");
+document.getElementsByTagName("H1")[0].setAttribute("class", "parallax-layer layer-h");
 
 </script>
