@@ -10,9 +10,9 @@ Illustration portfolio and general purpose website. Constantly evolving, refinin
 ## Project Layout ##
 
 Built with:
-*Jekyll
-*SCSS
-*Normalize
-*Skeleton CSS framework
+* Jekyll
+* SCSS
+* Normalize
+* Skeleton CSS framework
 
 
