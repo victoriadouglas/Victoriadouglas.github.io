@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ page.title }}</title>
         <!-- link to main stylesheet -->
         <link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -34,8 +35,32 @@
         {% include navbar.html %}
         {{content}}
         {% include footer.html %}
-        <script>
-            window.fitText( document.getElementById("fittext") );
-        </script>
+<script>
+window.onload = init;
+
+function init()
+{
+    document.getElementById('navoff').onclick   = openPrimaryNav;
+    document.getElementById('navon').onclick  = closePrimaryNav;
+}
+    function openPrimaryNav()
+{
+    document.getElementById('navoff').style.display = "none";
+    document.getElementById('navon').style.display = "block";
+    document.getElementById('svgoff').style.pointerEvents = "none";
+    document.getElementById('svgon').style.pointerEvents = "all";
+    document.getElementById('nav').style.display = "block";
+}
+function closePrimaryNav()
+{
+    document.getElementById('navon').style.display = "none";
+    document.getElementById('navoff').style.display = "block";
+        document.getElementById('svgon').style.pointerEvents = "none";
+    document.getElementById('svgoff').style.pointerEvents = "all";
+    document.getElementById('nav').style.display = "none";
+} 
+    
+</script>
+        
     </body>
 </html>
