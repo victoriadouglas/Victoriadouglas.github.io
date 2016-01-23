@@ -45,6 +45,15 @@
     background-color: #222;
 }
 
+.accent a {
+    color: $text-color-accent;
+}
+
+.accent a:hover {
+    color:white;
+    background-color: $text-color-accent;
+}
+
 .backchange {
 background: white;
 }
