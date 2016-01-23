@@ -3,42 +3,149 @@ layout: default
 title: Jared Sellers
 subtitle: Illustrator, Designer, Kendama Enthusiast
 ---
-<div class="container splash">
-    <div class="checker"></div>
-    <img id="bgvid" src="img/Android-cybercity.jpg"/>
-<div style="text-align:center;">
-<h2>Illustration & Design</h2>
-</div>
-<style>#bgvid { 
-    width: 100%;
-    height: auto;
-    opacity: 1;
-    vertical-align: middle;
-}
+<!--PARALLAX EFFECT-->
+  <div class="parallax-container">
+    <div class="parallax-layer layer-h" data-parallax-speed="0" data-max-scroll="2000"></div>
+    <div class="parallax-layer layer-0" data-parallax-speed="0.1" data-max-scroll="2000"></div>
+    <div class="parallax-layer layer-1" data-parallax-speed="0.25" data-max-scroll="2000"></div>
+    <div class="parallax-layer layer-2" data-parallax-speed="0.4" data-max-scroll="2000"></div>
+    <div class="parallax-layer layer-3" data-parallax-speed="0.6" data-max-scroll="2000"></div>
+    <div class="parallax-layer layer-4" data-parallax-speed="0.85" data-max-scroll="2000"></div>
+    <div class="parallax-layer layer-5" data-parallax-speed="1" data-max-scroll="2000"></div>
+  </div>
+<div style="margin-top:100vh;"></div>
+  <div class="content"></div>
+<!--PARALLAX EFFECT-->
 
-    .splash h2 {
-     background: rgba(0,0,0,0);
-  position: absolute;
-  top: 0px; right: 0; bottom: 0; left: 0;
-        color: white;
-    }
+<!--CONTENT-->
+<div style="width:100%; height:100px;"></div>
+<div class="container" style="margin-bottom:100px;">
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In  -->
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" overflow="scroll" enable-background="new 0 0 100 100"
+	 xml:space="preserve">
+<defs>
+</defs>
+<g>
+	<path class="accent" d="M50,5c24.8,0,45,20.2,45,45S74.8,95,50,95S5,74.8,5,50S25.2,5,50,5 M50,0C22.4,0,0,22.4,0,50s22.4,50,50,50
+		s50-22.4,50-50S77.6,0,50,0L50,0z"/>
+</g>
+</svg>
+
+</div>
+<div class="container">
+    <div class="row">
+        <h2 style="line-height:7vw;">Illustrator.</h2>
+        <h2 style="line-height:7vw;" class="accent">Web Creator.</h2>
+        <h2 style="line-height:7vw;">Designer.</h2>
+    </div>
+    <div class="row">
+    <div style="margin:50px 0 30px 0;" class="eight columns">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis molestie congue. Donec ornare mauris sed ornare volutpat. Curabitur pulvinar vehicula erat sit amet viverra. Sed quis fringilla dolor. Duis dignissim ultrices lorem non vulputate. Vivamus congue eget felis a viverra.
+        </p>
+    </div>
+    </div>
     
-    .splash {
-     vertical-align: middle;
-    overflow: hidden;
-    }
-    
-     .checker {
-    background-image:url(/img/background-checker-black.png);
-    background-repeat: repeat;
-    }
-    
-   .checker { 
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-}
+    <div class="row">
+    <div class="eight columns">
+        <div class="six columns"><a class="button" href="#">The Portfolio</a></div>
+        <div class="six columns"></div>
+    </div>
+    </div>
+    <div style="height:200px;"></div>
     
 
-}</style>
+    <!--<div class="row" style="margin-top:100px;">
+        <div class="three columns">
+            {% for post in site.tags.illustration limit:3 %}
+            <div class="home-thumb">
+                    <a href="{{ post.url }}">
+                        <img src="{{ post.thumbnail }}" alt="img">
+                    </a>
+            </div>
+            {% endfor %}
+        </div>
+        
+        <div class="nine columns">
+            <h2>Illustration</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </div>-->
 </div>
+<!--CONTENT-->
+
+
+
+
+
+<!--SCRIPT-->
+<script>
+var ParallaxManager, ParallaxPart;
+
+ParallaxPart = (function() {
+  function ParallaxPart(el) {
+    this.el = el;
+    this.speed = parseFloat(this.el.getAttribute('data-parallax-speed'));
+    this.maxScroll = parseInt(this.el.getAttribute('data-max-scroll'));
+  }
+
+  ParallaxPart.prototype.update = function(scrollY) {
+    if (scrollY > this.maxScroll) { return; }
+    var offset = -(scrollY * this.speed);
+    this.setYTransform(offset);
+  };
+
+  ParallaxPart.prototype.setYTransform = function(val) {
+    this.el.style.webkitTransform = "translate3d(0, " + val + "px, 0)";
+    this.el.style.MozTransform    = "translate3d(0, " + val + "px, 0)";
+    this.el.style.OTransform      = "translate3d(0, " + val + "px, 0)";
+    this.el.style.transform       = "translate3d(0, " + val + "px, 0)";
+    this.el.style.msTransform     = "translateY(" + val + "px)";
+  };
+
+  return ParallaxPart;
+
+})();
+
+ParallaxManager = (function() {
+  ParallaxManager.prototype.parts = [];
+
+  function ParallaxManager(elements) {
+    if (typeof elements === 'array' && elements.length) {
+      this.elements = elements;
+    }
+    if (typeof elements === 'object' && elements.item) {
+      this.elements = Array.prototype.slice.call(elements);
+    } else if (typeof elements === 'string') {
+      this.elements = document.querySelectorAll(elements);
+      if (this.elements.length === 0) {
+        throw new Error("Parallax: No elements found");
+      }
+      this.elements = Array.prototype.slice.call(this.elements);
+    } else {
+      throw new Error("Parallax: Element variable is not a querySelector string, Array, or NodeList");
+    }
+    for (var i in this.elements) {
+      this.parts.push(new ParallaxPart(this.elements[i]));
+    }
+    window.addEventListener("scroll", this.onScroll.bind(this));
+  }
+
+  ParallaxManager.prototype.onScroll = function() {
+    window.requestAnimationFrame(this.scrollHandler.bind(this));
+  };
+
+  ParallaxManager.prototype.scrollHandler = function() {
+    var scrollY = Math.max(window.pageYOffset, 0);
+    for (var i in this.parts) { this.parts[i].update(scrollY); }
+  };
+
+  return ParallaxManager;
+
+})();
+
+new ParallaxManager('.parallax-layer');
+
+document.getElementsByClassName("header")[0].setAttribute("class", "fixhead");
+</script>
