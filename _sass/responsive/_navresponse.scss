@@ -1,4 +1,6 @@
  .parallax_mobile {
+     position: absolute;
+     top:0;
      height:100vh; 
      width:100vw;
      background-image: url(/img/mobile%20home.png);
@@ -7,10 +9,6 @@
      background-size: 220vh 100vh;
      background-repeat: no-repeat;
      
- }
-
- .parallax_spacer {
-display:none; 
  }
 
 h1 {margin-top:44px;}
@@ -36,9 +34,6 @@ display:none;
     .parallax-container {
 display:block;
 }
-     .parallax_spacer {
-display:block; 
- }
      .parallax_mobile {
      display: none;
      
