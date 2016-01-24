@@ -32,6 +32,7 @@ h2 {
    font-family: "Raleway";
    text-transform: uppercase;
    letter-spacing: 2px;
+    line-height: 6.5vw;
 }
 
 h3 {
@@ -55,6 +56,12 @@ p {
    font-family: "Anonymous Pro","Raleway","Verdana";
    font-weight: 400;
    font-style: normal;
+}
+
+p a {
+    text-decoration: none;
+background:#EFEFEF;
+color:$text-color-accent;
 }
 
 a {
