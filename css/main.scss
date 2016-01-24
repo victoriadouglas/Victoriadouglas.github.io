@@ -10,6 +10,7 @@
 @import 'base/helpers';
 @import 'base/variables';
 @import 'base/sandbox';
+@import 'base/hamburgler';
 
 //Layout Partials
 
@@ -25,6 +26,7 @@
 @import 'modules/xmark';
 @import 'modules/parallax';
 
+
 //Microinteractions (If I'm not lazy I will get to this.)
 
 @import 'micro/colorchange';
@@ -32,4 +34,4 @@
 
 //Responsiveness
 
-@import 'responsive/navrespons';
+@import 'responsive/navresponse';
