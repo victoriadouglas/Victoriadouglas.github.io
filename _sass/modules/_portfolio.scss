@@ -32,7 +32,12 @@
 @media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+.thumbnail {
+    width:23%;
+    margin: 1%;
+}
+}
 
 
 //ihover
@@ -43,7 +48,6 @@
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
     background-color: #222;
-    border: solid 10px #222;
 }
 
 .ih-item.square .info {

@@ -17,4 +17,6 @@ subtitle: Digital Painting & Traditional Illustration
 </svg>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu sollicitudin eros. Pellentesque euismod, felis pharetra molestie rhoncus, tortor diam tincidunt lorem, tincidunt convallis tellus ipsum ut diam. Praesent non ex at felis blandit lacinia. Vestibulum hendrerit hendrerit odio eu ornare. Maecenas venenatis eget felis et fringilla. Aliquam non pellentesque neque. Vivamus ornare tortor orci, non scelerisque leo volutpat ut. Curabitur semper vitae purus eu venenatis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse ante neque, cursus sed suscipit at, pellentesque tincidunt dui. Curabitur eu dui congue, elementum metus id, finibus nisi.</p>
 </div>
-<div class="container">{% for post in site.tags.illustration %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3>{{ post.title }}</h3></div></a></div></div>{% endfor %}</div>
+<div style="max-width:90vw; margin:0 auto;">
+{% for post in site.tags.illustration %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3>{{ post.title }}</h3></div></a></div></div>{% endfor %}
+    </div>
