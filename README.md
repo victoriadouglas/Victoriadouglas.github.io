@@ -14,5 +14,6 @@ Built with:
 * SCSS
 * Normalize
 * Skeleton CSS framework
+* JQuery
 
 
