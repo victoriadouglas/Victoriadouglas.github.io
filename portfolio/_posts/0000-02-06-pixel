@@ -1,0 +1,12 @@
+---
+layout: post
+title: ""
+category: portfolio
+tags: illustration,design,traditional
+thumbnail: /portfolio/thumbs/full-poster.png
+orientation: portrait, landscape
+size: square, letter, tabloid
+full: /portfolio/full/poster-layout.png
+medium: Digital
+description: Mock advertisement for the Google Pixel.
+---
