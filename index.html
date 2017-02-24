@@ -5,7 +5,7 @@ subtitle: Illustrator, Designer, Kendama Enthusiast
 ---
 <!--PARALLAX EFFECT-->
 <div class="parallax_mobile"></div>
-  <div class="parallax-container">
+  <div class="parallax-container" id="parallax">
     <div class="parallax-layer layer-0" data-parallax-speed="0.1" data-max-scroll="8000"></div>
     <div class="parallax-layer layer-1" data-parallax-speed="0.25" data-max-scroll="8000"></div>
     <div class="parallax-layer layer-2" data-parallax-speed="0.4" data-max-scroll="8000"></div>
@@ -14,7 +14,7 @@ subtitle: Illustrator, Designer, Kendama Enthusiast
     <div class="parallax-layer layer-5" data-parallax-speed="1" data-max-scroll="9000"></div>
   </div>
 <div class="parallax_spacer" style="margin-top:100vh;"></div>
-  <div class="content"></div>
+  <div class="content" id="background"></div>
 <!--PARALLAX EFFECT-->
 
 
@@ -124,5 +124,24 @@ function myFunction() {
     
     function colorfunction() {
     document.getElementById("edit").classList.remove("edit-snippet");
+}
+</script>
+
+
+<script>
+window.onscroll = function() {scrollfunction()};
+
+function scrollfunction() {
+    if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 50) {
+        document.getElementById("parallax").className = "parallax-container hidden";
+    } else {
+        document.getElementById("parallax").className = "parallax-container";
+    }
+    
+    if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 50) {
+        document.getElementById("header").className = "header hidden";
+    } else {
+        document.getElementById("header").className = "header";
+    }
 }
 </script>
