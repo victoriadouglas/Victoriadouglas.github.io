@@ -48,13 +48,20 @@ h3 {
    letter-spacing: 1px;
 }
 
+h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:30px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+
 p {
    margin: 0px 0px 13px 0px;
     padding: 0 0 0 10px;
-   font-size: 18px;
+   font-size: 20px;
    clear: none;
    font-family: "Anonymous Pro","Raleway","Verdana";
-    font-family: 'PT Serif', serif;
+   font-family: 'Open Sans Condensed', sans-serif;
    font-weight: 400;
    font-style: normal;
 }
@@ -88,9 +95,14 @@ color: $text-color-accent;
 font-size:130%;
 }
 
+.subtitle {
+    display:fixed;
+margin-top:0vw;
+}
 
-
-
+#portfolio {
+padding-top:100px;
+}
 /* RESPONSIVE SIZING */
 
 
@@ -116,6 +128,11 @@ font-size:130%;
 column-count: 2;
 
 column-gap: 30px;}
+    
+    .subtitle {
+    display:fixed;
+margin-top:26vw;
+}
 
 }
 
@@ -129,18 +146,17 @@ h1 {
 }
     
     .column-text
-{    -moz-column-count: 2;
+{    -moz-column-count: 3;
 
 -moz-column-gap: 30px;
 
--webkit-column-count:2;
+-webkit-column-count:3;
 
 -webkit-column-gap: 30px;
 
-column-count: 2;
+column-count: 3;
 
 column-gap: 30px;}
-    
     
 }
 
@@ -150,7 +166,11 @@ h1 {
   border: solid 30px $text-color-dark;
   padding:15px 15px;
     margin-top:84px;
-}   
+}  
+    
+.subtitle {
+margin-top:280px;
+}
 }
 
 /* Larger than Desktop HD */
@@ -165,5 +185,6 @@ h1 {
    font-size: 160px;
 line-height: 140px;
 }
+    
     
 }

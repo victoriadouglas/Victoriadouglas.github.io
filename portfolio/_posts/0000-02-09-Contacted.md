@@ -2,7 +2,7 @@
 layout: post
 title: "Contacted"
 category: portfolio
-tags: illustration
+tags: animation illustration
 thumbnail: /portfolio/thumbs/backgroundDEMOBILLION.png
 full:
 orientation: landscape

@@ -54,7 +54,7 @@
     width: 80%; }
   .column,
   .columns {
-    margin-left: 2%; }
+    margin-left: 4%; }
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
@@ -171,21 +171,26 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 45px;
+  height: 60px;
   padding: 0 30px;
   color: #222;
   text-align: center;
-  font-size: 20px;
+  font-size: 28px;
+  font-family: 'Open Sans Condensed', sans-serif;
   line-height: 38px;
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background-color:white;
-  border-radius: 0;
-  border: 5px solid #222;
+  background-color:#E2E2E2;
+  border-radius: 100px;
+  border: 0px solid #222;
   cursor: pointer;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+width:100%;
+    text-align: center;
+}
+
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
