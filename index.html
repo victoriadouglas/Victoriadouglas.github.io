@@ -26,42 +26,18 @@ subtitle: Illustrator, Designer, Kendama Enthusiast
 
 
 <!--CONTENT-->
-<div class="container" style="margin-bottom:100px;">
+<div class="container">
 
 
 <h2 id="portfolio">Portfolio</h2>
     
     
     <p class="column-text"><span class="opening"> PARIS, 2017 </span>- Lorem ipsum dolor sit amet, <span onclick="colorfunction()" class="edit-snippet" id="edit">consectetur</span> adipiscing elit. Vivamus sit amet ante nec justo tempor elementum. Duis eget convallis lorem, eget placerat magna. Pellentesque ut nunc id augue maximus varius quis in lorem. Nam auctor porttitor sapien vitae rutrum. Vestibulum iaculis orci nulla, non vulputate dui accumsan et. Praesent non libero nunc. Morbi tristique ligula at dolor tempus imperdiet. Morbi elementum ullamcorper congue. Aliquam sollicitudin dolor id sodales eleifend. Nunc velit tortor, laoreet tristique ante vitae, lacinia laoreet purus.Vivamus sit amet ante nec justo tempor elementum. Duis eget convallis lorem, eget placerat magna. Pellentesque ut nunc id augue maximus varius quis in lorem. Nam auctor porttitor sapien vitae rutrum. Vestibulum iaculis orci nulla, non vulputate dui accumsan et. Praesent non libero nunc. Morbi tristique ligula at dolor tempus imperdiet. Morbi elementum ullamcorper congue. Aliquam sollicitudin dolor id sodales eleifend. Nunc velit tortor, laoreet tristique ante vitae, lacinia laoreet purus.</p>
+</div> 
     
-    
-<div style="height:100px"></div>
-<div class="row">  
-<div class="three columns"><button class="animated" onclick="Highlights()">Highlights</button></div>
-<div class="three columns"><button class="animated" onclick="Illustration()">Illustration</button></div>
-<div class="three columns"><button class="animated" onclick="Animation()">Animation</button></div>
-<div class="three columns"><button class="animated" onclick="Design()">Design</button></div>
+<div style="max-width:90vw; margin:0 auto;" class="folio-container">
+{% for post in site.tags.illustration %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3>{{ post.title }}</h3></div></a></div></div>{% endfor %}
 </div>
-
-<div id="Highlights" class="test">
-<div style="max-width:90vw; margin:0 auto;" class="folio-container">
-{% for post in site.tags.illustration %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3>{{ post.title }}</h3></div></a></div></div>{% endfor %}
-</div></div>
-    
-    <div id="Illustration" class="test">
-<div style="max-width:90vw; margin:0 auto;" class="folio-container">
-{% for post in site.tags.illustration %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3>{{ post.title }}</h3></div></a></div></div>{% endfor %}
-</div></div>
-
-    <div id="Animation" class="test">
-    <div style="max-width:90vw; margin:0 auto;" class="folio-container">
-{% for post in site.tags.animation %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3>{{ post.title }}</h3></div></a></div></div>{% endfor %}
-</div></div>
-    
-<div id="Design" class="test">
-<div style="max-width:90vw; margin:0 auto;" class="folio-container">
-{% for post in site.tags.illustration %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3>{{ post.title }}</h3></div></a></div></div>{% endfor %}
-</div></div>
   
 <!--CONTENT-->
 
@@ -155,19 +131,19 @@ function myFunction() {
 window.onscroll = function() {scrollfunction()};
 
 function scrollfunction() {
-    if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 50) {
+    if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 50) {
         document.getElementById("parallax").className = "parallax-container hidden";
     } else {
         document.getElementById("parallax").className = "parallax-container";
     }
     
-    if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 50) {
+    if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 50) {
         document.getElementById("header").className = "header hidden";
     } else {
         document.getElementById("header").className = "header";
     }
     
-    if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 50) {
+    if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 50) {
         document.getElementById("subtitle").className = "container subtitle hidden";
     } else {
         document.getElementById("subtitle").className = "container subtitle";

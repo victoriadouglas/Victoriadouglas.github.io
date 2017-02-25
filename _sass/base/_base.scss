@@ -3,7 +3,14 @@
 body {overflow-y:auto;}
 
 .hidden {
-display:none;
+visibility: hidden;
+    div {
+visibility: hidden;
+    }
+}
+
+.abolished {
+display: none;
     div {
 display: none;
     }

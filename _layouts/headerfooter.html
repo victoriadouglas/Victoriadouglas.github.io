@@ -56,29 +56,25 @@ $(document).ready(function(){
 </script>
 
 <script>
-    function Highlights() {
-    document.getElementById("Highlights").classList.remove("hidden");
-    document.getElementById("Illustration").classList.add("hidden");
-    document.getElementById("Animation").classList.add("hidden");
-    document.getElementById("Design").classList.add("hidden");
+    function All() {
+    document.getElementById("Illustration").classList.remove("abolished");
+    document.getElementById("Animation").classList.remove("abolished");
+    document.getElementById("Design").classList.remove("abolished");
 }
         function Illustration() {
-    document.getElementById("Highlights").classList.add("hidden");
-    document.getElementById("Illustration").classList.remove("hidden");
-    document.getElementById("Animation").classList.add("hidden");
-    document.getElementById("Design").classList.add("hidden");
+    document.getElementById("Illustration").classList.remove("abolished");
+    document.getElementById("Animation").classList.add("abolished");
+    document.getElementById("Design").classList.add("abolished");
 }
     function Animation() {
-    document.getElementById("Highlights").classList.add("hidden");
-    document.getElementById("Illustration").classList.add("hidden");
-    document.getElementById("Animation").classList.remove("hidden");
-    document.getElementById("Design").classList.add("hidden");
+    document.getElementById("Illustration").classList.add("abolished");
+    document.getElementById("Animation").classList.remove("abolished");
+    document.getElementById("Design").classList.add("abolished");
 }
     function Design() {
-    document.getElementById("Highlights").classList.add("hidden");
-    document.getElementById("Illustration").classList.add("hidden");
-    document.getElementById("Animation").classList.add("hidden");
-    document.getElementById("Design").classList.remove("hidden");
+    document.getElementById("Illustration").classList.add("abolished");
+    document.getElementById("Animation").classList.add("abolished");
+    document.getElementById("Design").classList.remove("abolished");
 }
 </script>
         
