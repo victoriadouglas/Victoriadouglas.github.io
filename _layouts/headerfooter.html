@@ -36,7 +36,7 @@
 
     <body onload="myFunction()" >
         <div id="top"></div>
-        {% include navbar.html %}
+        {% include {{ page.navbar }}.html %}
         {{content}}
         {% include footer.html %}
         
