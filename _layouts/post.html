@@ -1,6 +1,5 @@
 ---
-layout: headerfooter
-navbar: navfolio
+layout: headerfooterfolio
 ---
 <div class="container">
 {% include xmark.html %}
@@ -20,4 +19,10 @@ navbar: navfolio
     </div>
 {{ content }}
     <div style="height:15vh;"></div>
+    
+    <h2>More!</h2>
+    <div style="max-width:90vw; margin:0 auto;" class="folio-container">
+{% for post in site.tags.illustration %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3 style="font-size:75%;">{{ post.title }}</h3></div></a></div></div>{% endfor %}
+</div>
+    
 </div>
