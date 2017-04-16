@@ -9,18 +9,22 @@ layout: headerfooterfolio
     <img class="art" src="{{ page.full }}">
     
     
-    <div class="row">
-            <h2>{{ page.medium }}</h2>
+    <div class="row" style="margin-top:50px;">
+    <p class="column-text"><span style="font-size:20px; font-family:Raleway; font-weight:900; text-transform: uppercase;">{{ page.medium }}</span> - {{ page.description }} </p>
+</div> 
     </div>
-    <div class="row">
-        <div class="one-half column">
-            <p>{{ page.description }}</p>
-        </div>
-    </div>
+
+<div class="container">
+<img style="margin-top:100px;" class="art" src="{{ page.detail }}">
+</div>
+
+
 {{ content }}
     <div style="height:15vh;"></div>
-    
+
+    <div class="container">
     <h2>More!</h2>
+</div>
     <div style="max-width:90vw; margin:0 auto;" class="folio-container">
 {% for post in site.tags.illustration %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3 style="font-size:75%;">{{ post.title }}</h3></div></a></div></div>{% endfor %}
 </div>
