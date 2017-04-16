@@ -11,7 +11,7 @@ h1 {
     color:$text-color-dark;
   padding:5px 5px;
   margin:0 auto;
-  margin-top: 44px;
+  margin-top: 84px;
     margin-bottom: 20px;
   text-align: left;
   font-family:$font-default;
@@ -21,18 +21,19 @@ h1 {
   line-height:.9;
     letter-spacing: 1px;
     overflow:hidden;
-    word-wrap: break-word;
 }
 
 h2 {
-   font-size: 10vw;
+   font-size: 90px;
+    font-size: 13vw;
    margin: 0px 0px 15px 0px;
    font-weight: 900;
    font-style: normal;
    font-family: "Raleway";
    text-transform: uppercase;
    letter-spacing: 2px;
-    line-height: 6.5vw;
+    word-wrap: break-word;
+    
 }
 
 h3 {
@@ -47,13 +48,20 @@ h3 {
    letter-spacing: 1px;
 }
 
+h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:30px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+
 p {
    margin: 0px 0px 13px 0px;
+    padding: 0 0 0 10px;
    font-size: 20px;
-   line-height: 36px;
-   text-align: justify;
    clear: none;
    font-family: "Anonymous Pro","Raleway","Verdana";
+   font-family: 'Open Sans Condensed', sans-serif;
    font-weight: 400;
    font-style: normal;
 }
@@ -79,6 +87,27 @@ a {
     background-color: #222;
 }
 
+.edit-snippet {
+color: $text-color-accent;
+}
+
+.opening {
+font-size:130%;
+}
+
+.subtitle {
+    display:fixed;
+margin-top:0vw;
+}
+
+#portfolio {
+padding-top:100px;
+}
+/* RESPONSIVE SIZING */
+
+
+
+
 
 /* Larger than mobile */
 @media (min-width: 400px) {
@@ -87,6 +116,23 @@ a {
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
+        .column-text
+{    -moz-column-count: 2;
+
+-moz-column-gap: 30px;
+
+-webkit-column-count: 2;
+
+-webkit-column-gap: 30px;
+
+column-count: 2;
+
+column-gap: 30px;}
+    
+    .subtitle {
+    display:fixed;
+margin-top:26vw;
+}
 
 }
 
@@ -96,7 +142,22 @@ h1 {
   border: solid 20px $text-color-dark;
   padding:10px 10px;
   font-size: 9vw;
+    margin-top:84px;
 }
+    
+    .column-text
+{    -moz-column-count: 3;
+
+-moz-column-gap: 30px;
+
+-webkit-column-count:3;
+
+-webkit-column-gap: 30px;
+
+column-count: 3;
+
+column-gap: 30px;}
+    
 }
 
 /* Larger than desktop */
@@ -104,6 +165,11 @@ h1 {
 h1 {
   border: solid 30px $text-color-dark;
   padding:15px 15px;
+    margin-top:84px;
+}  
+    
+.subtitle {
+margin-top:280px;
 }
 }
 
@@ -112,5 +178,13 @@ h1 {
 h1 {
   padding:20px 20px;
   font-size: 11rem;
+    margin-top:84px;
 }
+    
+        h2 {
+   font-size: 160px;
+line-height: 140px;
+}
+    
+    
 }

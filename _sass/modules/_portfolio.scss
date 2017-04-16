@@ -17,14 +17,14 @@
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 .thumbnail {
-    width:48%;
+    width:100%;
     margin: 1%;
 }}
 
 /* Larger than tablet */
 @media (min-width: 750px) {
 .thumbnail {
-    width:31.3%;
+    width:48%;
     margin: 1%;
 }}
 
@@ -96,11 +96,7 @@
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
   transform: translateY(0);
-        -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
+
     -webkit-filter: blur(0px);
 -moz-filter: blur(0px);
 -o-filter: blur(0px);
@@ -138,18 +134,8 @@ filter: blur(0px);
   -o-transform: translateY(100%);
   transform: translateY(100%);
 }
-.ih-item.square.effect3.bottom_to_top a:hover .img {    
-    -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  transform: scale(1.5);
-    
-    -webkit-filter: blur(5px);
--moz-filter: blur(5px);
--o-filter: blur(5px);
--ms-filter: blur(5px);
-filter: blur(5px);
+.ih-item.square.effect3.bottom_to_top a:hover .img {      
+    opacity:.5;
 }
 .ih-item.square.effect3.bottom_to_top a:hover .info {
   -webkit-transform: translateY(0);
@@ -157,4 +143,8 @@ filter: blur(5px);
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
   transform: translateY(0);
+}
+
+.folio-container {
+    
 }

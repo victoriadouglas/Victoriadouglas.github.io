@@ -1,32 +1,25 @@
-<script type="text/javascript">
-    var userFeed = new Instafeed({
-        get: 'user',
-        userId: 2149947515,
-        accessToken: '2149947515.467ede5.c7ca5a862e7c4e00b5b4a5e963eb6fcc'
-    });
-    userFeed.run();
-</script>
+<div class="container">
 
-<div class="container insta">
-<h1 class="instaheader">Instagram.</h1>
-<div id="instafeed"></div>
+<div style="height:100px"></div>
+<div class="row">  
+<div class="three columns"><button class="animated" onclick="Illustration()">Illustration</button></div>
+<div class="three columns"><button class="animated" onclick="Animation()">Animation</button></div>
+<div class="three columns"><button class="animated" onclick="Design()">Design</button></div>
+<div class="three columns"><button class="animated" onclick="All()">All</button></div>
 </div>
+  
+    <div id="Illustration" class="test">
+<div style="max-width:90vw; margin:0 auto;" class="folio-container">
+{% for post in site.tags.illustration %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3>{{ post.title }}</h3></div></a></div></div>{% endfor %}
+</div></div>
 
-<!--        accessToken: '2149947515.b267f11.3154bc18154441268f394acbc2177567',
-
-
-
-<script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'user',
-        userID: 2149947515,
-        clientId: 'b267f1143378463091d5b0ab4c7e1e36',
-        accessToken: '2149947515.467ede5.c7ca5a862e7c4e00b5b4a5e963eb6fcc',
-        limit: '12'
-    });
-    feed.run();
-</script>
-
-
-
--->
+    <div id="Animation" class="test">
+    <div style="max-width:90vw; margin:0 auto;" class="folio-container">
+{% for post in site.tags.animation %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3>{{ post.title }}</h3></div></a></div></div>{% endfor %}
+</div></div>
+    
+<div id="Design" class="test">
+<div style="max-width:90vw; margin:0 auto;" class="folio-container">
+{% for post in site.tags.illustration %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3>{{ post.title }}</h3></div></a></div></div>{% endfor %}
+</div></div>
+</div>

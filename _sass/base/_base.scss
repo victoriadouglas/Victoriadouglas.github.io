@@ -1,3 +1,22 @@
 //Sass Partial
 
 body {overflow-y:auto;}
+
+.hidden {
+visibility: hidden;
+    div {
+visibility: hidden;
+    }
+}
+
+.abolished {
+display: none;
+    div {
+display: none;
+    }
+}
+
+.videoframe {
+height: 50vw;
+max-height: 550px;
+}
