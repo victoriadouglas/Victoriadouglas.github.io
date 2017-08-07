@@ -11,7 +11,6 @@ h1 {
     color:$text-color-dark;
   padding:5px 5px;
   margin:0 auto;
-  margin-top: 84px;
     margin-bottom: 20px;
   text-align: left;
   font-family:$font-default;
@@ -21,6 +20,7 @@ h1 {
   line-height:.9;
     letter-spacing: 1px;
     overflow:hidden;
+    margin-top: 0 !important;
 }
 
 h2 {
@@ -29,7 +29,7 @@ h2 {
    margin: 0px 0px 15px 0px;
    font-weight: 900;
    font-style: normal;
-   font-family: "Raleway";
+   font-family: $font-default;
    text-transform: uppercase;
    letter-spacing: 2px;
     word-wrap: break-word;
@@ -145,7 +145,6 @@ h1 {
   border: solid 20px $text-color-dark;
   padding:10px 10px;
   font-size: 9vw;
-    margin-top:84px;
 }
     
     .column-text
@@ -168,7 +167,6 @@ column-gap: 30px;}
 h1 {
   border: solid 30px $text-color-dark;
   padding:15px 15px;
-    margin-top:84px;
 }  
     
 .subtitle {
@@ -181,7 +179,6 @@ margin-top:280px;
 h1 {
   padding:20px 20px;
   font-size: 11rem;
-    margin-top:84px;
 }
     
         h2 {
