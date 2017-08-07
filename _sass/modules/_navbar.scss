@@ -1,3 +1,8 @@
+.logo a {
+display: inline-block;
+float: left;
+}
+
 .nav {
     position: fixed;
     z-index: 1000;
@@ -5,14 +10,10 @@
     height:auto;
     top:0;
     background:white;
-    
-    -webkit-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.6);
--moz-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.6);
-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.6);
 }
 
 .nav ul {
-    font-family:'Raleway', 'Arial', 'Sans-Serif';
+    font-family:$font-default;
     font-weight:$heavy;
     padding:0px;
     list-style: none;
@@ -28,7 +29,27 @@ box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.6);
 
 .links {
     display: inline-block;
-    float: left;
+    float: right;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #222;  	
+    -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+    padding: 10px 10px;
+    font-family:$font-default;
+    font-weight:$heavy;
+    letter-spacing: 0px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.nav  a:hover {
+    color:white;
+    background-color: #222;
 }
 
 .sitelink a {
@@ -40,11 +61,13 @@ box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.6);
   	-webkit-transition:.2s;
   	transition: .2s;
     padding: 13px 13px;
-    font-family:'Raleway', 'Arial', 'Sans-Serif';
+    font-family:$font-default;
     font-weight:$heavy;
+    letter-spacing: 15px;
+    border-radius: 0px 0px 0px 0px;
 }
 
-.sitelink a:hover {
+.sitelink  a:hover {
     color:white;
     background-color: #222;
 }

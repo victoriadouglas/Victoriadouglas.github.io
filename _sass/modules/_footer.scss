@@ -1,9 +1,18 @@
 .footer ul li{
     display: inline-block;
-    padding: 5px 5px 5px 5px;
+    padding: 0px 5px 0px 5px;
 }
 
 .footer {
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+    background-color: white;
+ul {margin-bottom: 0 !important;}
+ li {margin-bottom: 0 !important;}
+    
 }
 
 #icon {
@@ -11,7 +20,7 @@
 }
 
 
-.circle {fill:#EFEFEF}
+.circle {fill:white;}
 .navlink {
   	-o-transition:.2s;
   	-ms-transition:.2s;
