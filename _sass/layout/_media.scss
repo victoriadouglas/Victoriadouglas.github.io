@@ -9,4 +9,28 @@ margin: 25px 0px 25px 0px;
 
 //THUMBNAILS
 
+.thumbnail {
+    display:inline-block;
+    margin: 0;
+    vertical-align: bottom;
+    img {
+        width:auto;
+        height: 150px;
+    }
+}
+
 //IMAGES
+
+.blogimg img {
+border-radius: 0 50px 0 0;
+    width:100%;
+    max-width:960px; 
+}
+
+
+
+
+
+
+
+.folioimg img {}

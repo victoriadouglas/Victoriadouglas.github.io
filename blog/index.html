@@ -3,18 +3,21 @@ layout: default
 title: Blog
 subtitle: When I get around to it.
 ---
-<h1>The Blog</h1>
 <ul class="posts">
 {% for post in site.categories.blog %}
 	    
-    <li class="postlist">
+    <li class="postlist blogimg">
         
         <!--<p>{% if post.thumbnail %}
 	<a href="{{ post.url }}"><img src="{{ post.thumbnail }}"/></a>
 	{% else %}
                 <a href="{{ post.url }}"><img src="http://lorempixel.com/50/50/" /></a>
 	{% endif %}</p>-->
-        
+            {% if post.cover %}
+    <img src="{{ post.cover }}">
+        {% else %}
+    <!--<img class="art" src="{{ page.cover }}">-->
+        {% endif %}
             <h2><a class="title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
             <h3>//{{ post.date | date_to_string }}</h3>
         </li>

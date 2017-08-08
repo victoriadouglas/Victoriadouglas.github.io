@@ -1,0 +1,30 @@
+---
+layout: Home
+---
+<div class="container blogimg">
+{% include xmarkblog.html %}
+    <div style="margin-top:150px;">
+    {% include nextprevblog.html %}
+    {% if page.cover %}
+    <img src="{{ page.cover }}">
+        {% else %}
+    <!--<img class="art" src="{{ page.cover }}">-->
+        {% endif %}
+    <h2>{{ page.title }}</h2>
+    <h3>// {{ page.date | date_to_string }}</h3>
+    </div>
+    
+    {% if page.description %}
+    <p>{{ page.description }}</p>
+        {% else %}
+    <!--<p>{{ page.description }}</p>-->
+        {% endif %}
+    
+    {% if page.description %}
+    <img style="margin-top:100px;" class="art" src="{{ page.detail }}">
+        {% else %}
+    <!--<img style="margin-top:100px;" class="art" src="{{ page.detail }}">-->
+        {% endif %}
+
+{{ content }}
+

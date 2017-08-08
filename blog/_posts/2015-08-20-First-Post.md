@@ -1,14 +1,14 @@
 ---
-layout: post
-title: "Test first post"
+layout: blog
+title: "How to Burn Your Whole Body"
 category: Blog
-tags: blog
-date: 2015-08-20
+thumbnail: /portfolio/thumbs/
+cover: /blog/covers/test.jpg
+date: 2017-08-08
+author: Jared Sellers
+description:
 ---
-
-
 This is the first post!
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 Aenean vitae commodo justo, in hendrerit diam. Ut vitae congue quam, rhoncus accumsan orci. 
 Integer auctor nulla eget sodales bibendum. Donec vel scelerisque purus. 

@@ -15,7 +15,7 @@ h1 {
    text-transform: uppercase;
    letter-spacing: 2px;
     word-wrap: break-word;
-    margin-top: 150px !important;
+    margin-top: 00px !important;
         -o-transition:.2s;
   	-ms-transition:.2s;
   	-moz-transition:.2s;
@@ -26,7 +26,7 @@ h1 {
 h2 {
   width:auto;
     color:$text-color-dark;
-  padding:5px 5px;
+  padding:0px;
   margin:0 auto;
     margin-bottom: 0px;
   text-align: left;
@@ -42,7 +42,7 @@ h2 {
   	-moz-transition:.2s;
   	-webkit-transition:.2s;
   	transition: .2s;
-    padding: 15px 0px;
+    padding: 0px 0px;
     
     
     
@@ -60,7 +60,7 @@ h3 {
   font-weight:$heavy;
   font-size: 4vw;
   line-height:.9;
-    letter-spacing: 15px;
+    letter-spacing: 5px;
     overflow:hidden;
         -o-transition:.2s;
   	-ms-transition:.2s;
@@ -81,7 +81,7 @@ p {
     max-width: 400px;
     margin-top: 20px;
     margin-bottom: 50px;
-    text-indent: 50px;
+    text-indent: 0px;
 }
 
 a {
@@ -105,7 +105,7 @@ color: $text-color-accent;
 }
 
 .title {
-color:$text-color-accent;
+color:#222;
 }
 
 
@@ -131,7 +131,7 @@ list-style-type: none;
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-    h3{font-size: 24px;}
+    h3{font-size: 18px;}
 }
 
 /* Larger than tablet */
