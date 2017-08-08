@@ -94,7 +94,8 @@ a {
     text-transform: uppercase;
     vertical-align: middle;
     text-decoration: none;
-    padding: 0px 15px;
+    padding: 0px 0px;
+    color: $text-color-accent;
     
 }
 
@@ -107,8 +108,6 @@ color: $text-color-accent;
 .title {
 color:#222;
 }
-
-.title:hover { background-color: white;}
 
 
 .sitelink a:hover {
