@@ -14,7 +14,7 @@ subtitle: When I get around to it.
                 <a href="{{ post.url }}"><img src="http://lorempixel.com/50/50/" /></a>
 	{% endif %}</p>-->
             {% if post.cover %}
-    <img src="{{ post.cover }}">
+        <a class="title" href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.cover }}"></a>
         {% else %}
     <!--<img class="art" src="{{ page.cover }}">-->
         {% endif %}
