@@ -15,7 +15,12 @@ h1 {
    text-transform: uppercase;
    letter-spacing: 2px;
     word-wrap: break-word;
-    margin-top: 0 !important;
+    margin-top: 150px !important;
+        -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
 }
 
 h2 {
@@ -23,7 +28,7 @@ h2 {
     color:$text-color-dark;
   padding:5px 5px;
   margin:0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   text-align: left;
   font-family:$font-default;
   text-transform: uppercase;
@@ -32,6 +37,12 @@ h2 {
   line-height:.9;
     letter-spacing: 1px;
     overflow:hidden;
+        -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+    padding: 15px 0px;
     
     
     
@@ -47,10 +58,15 @@ h3 {
   font-family:$font-default;
   text-transform: uppercase;
   font-weight:$heavy;
-  font-size: 24px;
+  font-size: 4vw;
   line-height:.9;
     letter-spacing: 15px;
     overflow:hidden;
+        -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
     
 }
 
@@ -75,6 +91,20 @@ a {
   	-webkit-transition:.2s;
   	transition: .2s;
     text-transform: uppercase;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 0px 15px;
+    
+}
+
+a:hover {
+color: $text-color-accent;
+    color: white;
+    background-color: #222;
+}
+
+.title {
+color:$text-color-accent;
 }
 
 
@@ -83,22 +113,10 @@ a {
     background-color: #222;
 }
 
-.edit-snippet {
-color: $text-color-accent;
+li {
+list-style-type: none;
 }
 
-.opening {
-font-size:130%;
-}
-
-.subtitle {
-    display:fixed;
-margin-top:0vw;
-}
-
-#portfolio {
-padding-top:100px;
-}
 /* RESPONSIVE SIZING */
 
 
@@ -112,7 +130,7 @@ padding-top:100px;
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-
+    h3{font-size: 24px;}
 }
 
 /* Larger than tablet */

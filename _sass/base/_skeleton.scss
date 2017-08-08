@@ -170,26 +170,28 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  display: inline-block;
-  height: 60px;
-  padding: 0 30px;
+   display: inline-block;
   color: #222;
+    padding: 5px 15px;
   text-align: center;
-  font-size: 28px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  line-height: 38px;
-  letter-spacing: .1rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 5px;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background-color:#E2E2E2;
-  border-radius: 100px;
-  border: 0px solid #222;
+  background-color:white;
+  border: 2px solid #222;
   cursor: pointer;
   box-sizing: border-box; 
-width:100%;
+width:auto;
+    font-size: 28px;
     text-align: center;
+        -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
 }
+
 
 .button:hover,
 button:hover,
@@ -202,8 +204,8 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   color: white;
-    background-color: $text-color-accent;
-  border-color:$text-color-accent;
+    background-color: $text-color-dark;
+  border-color:$text-color-dark;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -310,6 +312,7 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
+    text-decoration: none;
   margin-bottom: 1rem; }
 
 

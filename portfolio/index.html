@@ -3,3 +3,14 @@ layout: default
 title: Portfolio
 subtitle:
 ---
+
+<h1>Portfolio</h1>
+
+
+{% for post in site.tags.illustration %}
+<div class="thumbnail"> 
+        <a href="{{ post.url }}">
+            <img src="{{ post.thumbnail }}" alt="img">  
+        </a>
+</div>
+{% endfor %}

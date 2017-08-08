@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<div class="container">
+
 {% include xmark.html %}
-    <div class="animate fade fromtop">
-    <h1>{{ page.title }}</h1>
+    <div style="margin-top:150px;">
+    <h2>{{ page.title }}</h2>
     </div>
     <img class="art" src="{{ page.full }}">
     
@@ -29,4 +29,4 @@ layout: default
 {% for post in site.tags.illustration %}<div class="thumbnail"><div class="ih-item square effect3 bottom_to_top"><a href="{{ post.url }}"><div class="img"><img src="{{ post.thumbnail }}" alt="img"></div><div class="info"><h3 style="font-size:75%;">{{ post.title }}</h3></div></a></div></div>{% endfor %}
 </div>
     
-</div>
+
