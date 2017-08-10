@@ -6,5 +6,4 @@ thumbnail: /portfolio/thumbs/
 full: /portfolio/full/
 detail: /portfolio/detail/
 description:
-
 ---
