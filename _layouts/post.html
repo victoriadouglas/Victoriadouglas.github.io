@@ -1,39 +1,35 @@
 ---
 layout: Home
 ---
-<div class="container folioimg">
+<div class="container">
 {% include xmark.html %}
     {% include nextprev.html %}
-    <h2>{{ page.title }}</h2>
-
-
-
+</div>
 
 
 {% if page.full %}
-    <img class="art" src="{{ page.full }}">
+    <img class="folioimg" src="{{ page.full }}">
 {% else %}
     <!--<img class="art" src="{{ page.full }}">-->
 {% endif %}
     
-    <div class="row" style="margin-top:50px;">
-    {% if page.description %}
-    <p>{{ page.description }}</p>
+<div class="container">
+    {% if page.category %}
+    <p class="description"><em>- {{ page.title }} -</em></p>
+    <p class="description">{{ page.description }}</p>
         {% else %}
     <!--<p>{{ page.description }}</p>-->
         {% endif %}
+    <div class="row" style="margin-top:50px;">
 </div> 
-    </div>
-
-<div class="container">
     {% if page.detail %}
     <img style="margin-top:100px;" class="art" src="{{ page.detail }}">
         {% else %}
     <!--<img style="margin-top:100px;" class="art" src="{{ page.detail }}">-->
         {% endif %}
+{{ content }}
 </div>
-
-<div class="container">{{ content }}</div>
-</div>
+    </div>
+<div style="height:150px;">
     
 

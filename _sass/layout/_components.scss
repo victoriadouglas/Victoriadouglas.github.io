@@ -1,16 +1,63 @@
 //NEXT PREV BUTTONS
 
 .nextprev {
-   position: fixed;
     top:30vh;
     background-color:rgba(0, 0, 0, 0);
     margin-right: 0 !important;
 }
 
+.nextprevblog {
+    background-color:rgba(0, 0, 0, 0);
+    margin-right: 0 !important;
+}
+
 .nextprev.lefty {
+float: left;
+}
+
+.nextprev.righty {
+float: right;
+}
+
+.nextprevblog.lefty {
+float: left;
+}
+
+.nextprevblog.righty {
+float: right;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+.nextprev {
+   position: fixed;
+}
+    .nextprev.lefty {
 left:0;
 }
 
 .nextprev.righty {
     right: 0;
+}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+    
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+ 
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+ 
 }

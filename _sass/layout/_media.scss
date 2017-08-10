@@ -29,10 +29,43 @@ border-radius: 0 50px 0 0;
 
 img{
 width:100%;
-max-width:960px;
+max-width:90vw;
+display: block;
+margin: 0 auto;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+    
+}
+
+/* Larger than desktop */
+@media (min-width: 960px) {
+    .folioimg {
+        width: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  
 }
 
 
 
-
-.folioimg img {}
+.folioimg{
+max-height: 90vh;
+}
