@@ -3,7 +3,7 @@ layout: blog
 title: "How to Burn Your Whole Body"
 category: Blog
 thumbnail: /portfolio/thumbs/
-cover: /blog/covers/test.jpg
+cover: /blog/covers/test.png
 date: 2017-08-08
 author: Jared Sellers
 description:
