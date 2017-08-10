@@ -1,3 +1,10 @@
+img{
+width:100%;
+max-width:90vw;
+display: block;
+margin: 0 auto;
+}
+
 //VIDEO EMBEDS
 iframe {
 max-width: 80vw;
@@ -11,27 +18,20 @@ margin: 25px 0px 25px 0px;
 
 .thumbnail {
     display:inline-block;
-    margin: 0;
     vertical-align: bottom;
-    img {
-        width:auto;
-        height: 150px;
-    }
 }
+
+.thumbnail img {
+        margin: 5px;
+        width:auto;
+        height: 300px;
+    }
 
 //IMAGES
 
 .blogimg img {
 border-radius: 0 50px 0 0;
  
-}
-
-
-img{
-width:100%;
-max-width:90vw;
-display: block;
-margin: 0 auto;
 }
 
 /* Larger than mobile */

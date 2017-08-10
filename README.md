@@ -16,4 +16,8 @@ Built with:
 * Skeleton CSS framework
 * JQuery
 
+## Asset Specifications ##
+
+(This is mostly for me.)
+
 
