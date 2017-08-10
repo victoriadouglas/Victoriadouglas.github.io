@@ -19,12 +19,9 @@
 
 //Modules (This is the goods.)
 
-@import 'modules/title';
 @import 'modules/navbar';
 @import 'modules/portfolio';
 @import 'modules/footer';
-@import 'modules/portfoliopage';
-@import 'modules/xmark';
 
 //Microinteractions (If I'm not lazy I will get to this.)
 
@@ -32,5 +29,3 @@
 @import 'micro/highlighting';
 
 //Responsiveness
-
-@import 'responsive/navresponse';

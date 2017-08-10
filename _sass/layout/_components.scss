@@ -1,4 +1,8 @@
+/////////////////////
 //NEXT PREV BUTTONS
+/////////////////////
+
+
 
 .nextprev {
     top:30vh;
@@ -53,3 +57,49 @@ left:0;
 @media (min-width: 1200px) {
  
 }
+
+/////////////////////
+//X MARK
+/////////////////////
+
+.xmarkfix {
+    position: fixed;
+    top: 0;
+    right:0;
+    left:0;
+    z-index: 1001;
+    pointer-events: none;
+}
+
+.xmark {
+    circle {fill:white;}
+    width: 80px;
+    float: right;
+    margin: 10px;
+    pointer-events: all;
+}
+
+.animated {
+      -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+  transform-origin:center;
+}
+
+.xlink {
+    .x {fill:$text-color-accent;}
+}
+
+.xlink:hover {
+    .backcircle {fill:$text-color-accent;}
+    .x {fill:white;}
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
+
+/////////////////////
+//X MARK
+/////////////////////

@@ -151,3 +151,12 @@ h1 {}
 h1 {font-size: 130px;}
 h2{font-size: 80px;}  
 }
+
+.title {
+padding: 0px;
+}
+
+.title:hover { 
+    background-color: rgba(0, 0, 0, 0);;
+    color:$text-color-accent;
+}
