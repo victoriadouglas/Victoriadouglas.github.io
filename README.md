@@ -44,7 +44,7 @@ Portfolio Full page settings:
 -Mid compression jpeg
 
 Home Page Image (for now):
--960x960px
+-1000x1000px
 -White Background
 
 About Image:
