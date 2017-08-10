@@ -1,0 +1,16 @@
+//NEXT PREV BUTTONS
+
+.nextprev {
+   position: fixed;
+    top:30vh;
+    background-color:rgba(0, 0, 0, 0);
+    margin-right: 0 !important;
+}
+
+.nextprev.lefty {
+left:0;
+}
+
+.nextprev.righty {
+    right: 0;
+}
