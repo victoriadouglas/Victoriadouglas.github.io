@@ -1,59 +1,23 @@
-<div class="prevnext">
-<svg class="next-pos" version="1.1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;"
-	 xml:space="preserve">
-<defs>
-</defs>
-    
-    {% if page.next and page.next.categories contains "portfolio" %}
 
-      <a  class="next" xlink:href="{{ page.next.url }}">
+{% if page.next and page.next.categories contains "portfolio" %}
+
+    <a  class="button nextprev lefty" style="margin-right:30px;" href="{{ page.next.url }}">&laquo;</a>
 
 {% else %}
 
-<a  class="next" xlink:href="{{ page.url }}">
+    <a  class="button nextprev lefty" style="margin-right:30px;" href="{{ page.url }}">&laquo;</a>
           
 {% endif %}
     
-<circle class="circle-svg" cx="50" cy="50" r="50"/>
-<g>
-	<path class="carat" d="M46.746,47.713l37.267-19.477v9.884c0,0.698-0.174,1.357-0.523,1.957c-0.349,0.601-0.95,1.105-1.764,1.492l-13.062,7.093
-		c-1.57,0.775-3.353,1.376-5.329,1.841c1.996,0.465,3.779,1.066,5.329,1.841l13.062,7.054c0.833,0.426,1.415,0.95,1.764,1.55
-		c0.349,0.601,0.523,1.26,0.523,1.957v9.884L46.746,53.275V47.713z"/>
-	<path class="carat" d="M46.746,72.403L9.479,52.907v-5.562l37.267-19.457v9.884c0,0.698-0.174,1.357-0.523,1.957
-		c-0.349,0.601-0.95,1.105-1.764,1.492l-13.062,7.093c-1.57,0.775-3.353,1.376-5.329,1.841c1.996,0.465,3.779,1.066,5.329,1.841
-		l13.062,7.035c0.833,0.426,1.415,0.95,1.764,1.531c0.349,0.601,0.523,1.26,0.523,1.957V72.403z"/>
-</g>
-    </a>
-</svg>
-
-   <svg class="prev-pos" version="1.1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;"
-	 xml:space="preserve">
-<defs>
-</defs>
     {% if page.previous and page.previous.categories contains "portfolio" %}
 
-      <a  class="next" xlink:href="{{ page.previous.url }}">
+    <a  class="button nextprev righty" style="margin-right:30px;" href="{{ page.previous.url }}">&raquo;</a>
 
 {% else %}
 
-<a  class="next" xlink:href="{{ page.url }}">
+    <a  class="button nextprev righty" style="margin-right:30px;" href="{{ page.url }}">&raquo;</a>
           
 {% endif %}
-<circle class="circle-svg" cx="50" cy="50" r="50"/>
-<g>
-	<path class="carat" d="M53.254,52.287L15.986,71.764V61.88c0-0.698,0.174-1.357,0.523-1.957c0.349-0.601,0.95-1.105,1.764-1.492l13.062-7.093
-		c1.57-0.775,3.353-1.376,5.329-1.841c-1.996-0.465-3.779-1.066-5.329-1.841l-13.062-7.054c-0.833-0.426-1.415-0.95-1.764-1.55
-		c-0.349-0.601-0.523-1.26-0.523-1.957v-9.884l37.267,19.516V52.287z"/>
-	<path class="carat" d="M53.254,27.597l37.267,19.496v5.562L53.254,72.112v-9.884c0-0.698,0.174-1.357,0.523-1.957
-		c0.349-0.601,0.95-1.105,1.764-1.492l13.062-7.093c1.57-0.775,3.353-1.376,5.329-1.841c-1.996-0.465-3.779-1.066-5.329-1.841
-		l-13.062-7.035c-0.833-0.426-1.415-0.95-1.764-1.531c-0.349-0.601-0.523-1.26-0.523-1.957V27.597z"/>
-</g>
-    </a>
-</svg>
- 
-</div>
+    
+
 

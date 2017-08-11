@@ -6,103 +6,119 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 h1 {
-  border: solid 3vw $text-color-dark;
+       font-size: 90px;
+    font-size: 13vw;
+   margin: 0px 0px 15px 0px;
+   font-weight: 900;
+   font-style: normal;
+   font-family: $font-default;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+    word-wrap: break-word;
+    margin-top: 00px !important;
+        -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+}
+
+h2 {
+  width:auto;
+    color:$text-color-dark;
+  padding:0px;
+  margin:0 auto;
+    margin-bottom: 0px;
+  text-align: left;
+  font-family:$font-default;
+  text-transform: uppercase;
+  font-weight:$heavy;
+  font-size: 7vw;
+  line-height:.9;
+    letter-spacing: 1px;
+    overflow:hidden;
+        -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+    padding: 10px 0px;
+    
+    
+    
+}
+
+h3 {
   width:auto;
     color:$text-color-dark;
   padding:5px 5px;
   margin:0 auto;
-  margin-top: 84px;
     margin-bottom: 20px;
   text-align: left;
   font-family:$font-default;
   text-transform: uppercase;
   font-weight:$heavy;
-  font-size: 9vw;
+  font-size: 4vw;
   line-height:.9;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     overflow:hidden;
-}
-
-h2 {
-   font-size: 90px;
-    font-size: 13vw;
-   margin: 0px 0px 15px 0px;
-   font-weight: 900;
-   font-style: normal;
-   font-family: "Raleway";
-   text-transform: uppercase;
-   letter-spacing: 2px;
-    word-wrap: break-word;
+        -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
     
 }
 
-h3 {
-   font-size: 30px;
-    color:white;
-   line-height: 60px;
-   margin: 10px 0px 15px 0px;
-   font-weight: 900;
-   font-style: normal;
-   font-family: "Raleway";
-   text-transform: uppercase;
-   letter-spacing: 1px;
-}
-
-h4 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size:30px;
-    letter-spacing: 20px;
-    text-transform: uppercase;
-}
-
 p {
-   margin: 0px 0px 13px 0px;
-    padding: 0 0 0 10px;
-   font-size: 20px;
+    padding: 0 0 0 0px;
+   font-size: 12px;
    clear: none;
    font-family: "Anonymous Pro","Raleway","Verdana";
    font-family: 'Open Sans Condensed', sans-serif;
    font-weight: 400;
    font-style: normal;
-}
-
-p a {
-    text-decoration: none;
-background:#EFEFEF;
-color:$text-color-accent;
+    max-width: 500px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-indent: 0px;
 }
 
 a {
-    font-family: "Anonymous Pro","Raleway","Verdana";
+    font-family: $font-default;
     -o-transition:.2s;
   	-ms-transition:.2s;
   	-moz-transition:.2s;
   	-webkit-transition:.2s;
   	transition: .2s;
     text-transform: uppercase;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 0px 0px;
+    color: $text-color-accent;
+    
 }
+
+a:hover {
+color: $text-color-accent;
+    color: white;
+    background-color: #222 !important;
+}
+
+.title {
+color:#222;
+}
+
 
 .sitelink a:hover {
     color:white;
     background-color: #222;
 }
 
-.edit-snippet {
-color: $text-color-accent;
+li {
+list-style-type: none;
 }
 
-.opening {
-font-size:130%;
-}
-
-.subtitle {
-    display:fixed;
-margin-top:0vw;
-}
-
-#portfolio {
-padding-top:100px;
-}
 /* RESPONSIVE SIZING */
 
 
@@ -116,75 +132,31 @@ padding-top:100px;
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-        .column-text
-{    -moz-column-count: 2;
-
--moz-column-gap: 30px;
-
--webkit-column-count: 2;
-
--webkit-column-gap: 30px;
-
-column-count: 2;
-
-column-gap: 30px;}
-    
-    .subtitle {
-    display:fixed;
-margin-top:26vw;
-}
-
+    h3{font-size: 18px;}
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-h1 {
-  border: solid 20px $text-color-dark;
-  padding:10px 10px;
-  font-size: 9vw;
-    margin-top:84px;
-}
-    
-    .column-text
-{    -moz-column-count: 3;
-
--moz-column-gap: 30px;
-
--webkit-column-count:3;
-
--webkit-column-gap: 30px;
-
-column-count: 3;
-
-column-gap: 30px;}
+h1 {font-size: 11vw;}
     
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-h1 {
-  border: solid 30px $text-color-dark;
-  padding:15px 15px;
-    margin-top:84px;
-}  
-    
-.subtitle {
-margin-top:280px;
-}
+h1 {} 
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-h1 {
-  padding:20px 20px;
-  font-size: 11rem;
-    margin-top:84px;
+h1 {font-size: 130px;}
+h2{font-size: 80px;}  
 }
-    
-        h2 {
-   font-size: 160px;
-line-height: 140px;
+
+.title {
+padding: 0px;
 }
-    
-    
+
+.title:hover { 
+    background-color: rgba(0, 0, 0, 0);;
+    color:$text-color-accent;
 }

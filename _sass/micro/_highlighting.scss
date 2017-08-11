@@ -14,39 +14,53 @@ h1::-moz-selection {
 }
 
 h2::selection {
-  color: purple; /* WebKit/Blink Browsers */
+  color: $text-color-accent; /* WebKit/Blink Browsers */
 }
 h2::-moz-selection {
-  color: purple; /* Gecko Browsers */
+  color: $text-color-accent; /* Gecko Browsers */
 }
 
 h3::selection {
-  color: purple; /* WebKit/Blink Browsers */
+  color: $text-color-accent; /* WebKit/Blink Browsers */
 }
 h3::-moz-selection {
-  color: purple; /* Gecko Browsers */
+  color: $text-color-accent; /* Gecko Browsers */
 }
 
 
 h4::selection {
-  color: purple; /* WebKit/Blink Browsers */
+  color: $text-color-accent; /* WebKit/Blink Browsers */
 }
 h4::-moz-selection {
-  color: purple; /* Gecko Browsers */
+  color: $text-color-accent; /* Gecko Browsers */
 }
 
 
 h5::selection {
-  color: purple; /* WebKit/Blink Browsers */
+  color: $text-color-accent; /* WebKit/Blink Browsers */
 }
 h5::-moz-selection {
-  color: purple; /* Gecko Browsers */
+  color: $text-color-accent; /* Gecko Browsers */
 }
 
 
 h6::selection {
-  color: purple; /* WebKit/Blink Browsers */
+  color: $text-color-accent; /* WebKit/Blink Browsers */
 }
 h6::-moz-selection {
-  color: purple; /* Gecko Browsers */
+  color: $text-color-accent; /* Gecko Browsers */
+}
+
+a::selection {
+  color: $text-color-accent; /* WebKit/Blink Browsers */
+}
+a::-moz-selection {
+  color: $text-color-accent; /* Gecko Browsers */
+}
+
+span::selection {
+  color: $text-color-accent; /* WebKit/Blink Browsers */
+}
+span::-moz-selection {
+  color: $text-color-accent; /* Gecko Browsers */
 }

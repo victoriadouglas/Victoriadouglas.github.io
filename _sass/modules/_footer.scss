@@ -1,56 +1,33 @@
-.footer ul li{
-    display: inline-block;
-    padding: 5px 5px 5px 5px;
-}
-
 .footer {
-}
-
-#icon {
-  width:30px;
-}
-
-
-.circle {fill:#EFEFEF}
-.navlink {
-  	-o-transition:.2s;
-  	-ms-transition:.2s;
-  	-moz-transition:.2s;
-  	-webkit-transition:.2s;
-  	transition: .2s;
-}
-
-.behance, .dribbble, .facebook, .github, .linkedin, .nav-logo {
-  	-o-transition:.2s;
-  	-ms-transition:.2s;
-  	-moz-transition:.2s;
-  	-webkit-transition:.2s;
-  	transition: .2s;
-}
-
-.navlink:hover {
+    padding-top: 10px;
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+    float:left;
+    background-color: white;
+ul {margin-bottom: 0 !important;}
+ li {margin-bottom: 0 !important;}
     
-   .behance{
-    fill:$text-color-accent;
-  }
-    .dribbble {
-    fill:$text-color-accent;
-  }
-    .facebook {
-    fill:$text-color-accent;
-  }
-    .github {
-    fill:$text-color-accent;
-  }    
-  .linkedin {
-    fill:$text-color-accent;
-  }
-  
-  .nav-logo {
-    fill:white;
-  }
-
 }
 
-.footer a {background-color: white;}
+.footer a {
+display: inline-block;
+    margin: 0 auto;
+    color: #222;
+}
 
+.footer a:hover {
+    color: white;
+}
+
+.footer p {
+display: inline-block;
+    margin: 0 0 20px 0;
+}
+.description {
+display: block;
+    margin: 10px auto;
+    text-align: center;
+}

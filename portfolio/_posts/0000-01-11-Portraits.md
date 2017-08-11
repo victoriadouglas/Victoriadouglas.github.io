@@ -4,7 +4,7 @@ title: "Portraits"
 category: portfolio
 tags: illustration
 thumbnail: /portfolio/thumbs/portrait.png
-full: /portfolio/full/Portraits.jpg
+full: /portfolio/full/portrait.jpg
 medium: Digital Painting
 description:
 ---

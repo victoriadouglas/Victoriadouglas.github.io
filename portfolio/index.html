@@ -1,0 +1,16 @@
+---
+layout: default
+title: Portfolio
+subtitle:
+---
+
+<p>I'm not a fan of buzzwords, and I like to let my work speak for itself. This is simply a selection of my work, both personal and for clients all over the world. My work is primarily done in Photoshop, Blender, Adobe Animate and After Effects, with a large secondary arsenal of industry tools.</p>
+
+
+{% for post in site.tags.illustration %}
+<div class="thumbnail"> 
+        <a href="{{ post.url }}">
+            <img src="{{ post.thumbnail }}" alt="img">  
+        </a>
+</div>
+{% endfor %}

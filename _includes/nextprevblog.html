@@ -1,0 +1,22 @@
+{% if page.next and page.next.categories contains "blog" %}
+
+    <a  class="button nextprevblog lefty" style="margin-right:30px;" href="{{ page.next.url }}">&laquo;</a>
+
+{% else %}
+
+    <a  class="button nextprevblog lefty" style="margin-right:30px;" href="{{ page.url }}">&laquo;</a>
+          
+{% endif %}
+    
+    {% if page.previous and page.previous.categories contains "blog" %}
+
+    <a  class="button nextprevblog righty" style="margin-right:30px;" href="{{ page.previous.url }}">&raquo;</a>
+
+{% else %}
+
+    <a  class="button nextprevblog righty" style="margin-right:30px;" href="{{ page.url }}">&raquo;</a>
+          
+{% endif %}
+    
+
+

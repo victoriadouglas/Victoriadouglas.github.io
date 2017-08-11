@@ -1,0 +1,105 @@
+/////////////////////
+//NEXT PREV BUTTONS
+/////////////////////
+
+
+
+.nextprev {
+    top:30vh;
+    background-color:rgba(0, 0, 0, 0);
+    margin-right: 0 !important;
+}
+
+.nextprevblog {
+    background-color:rgba(0, 0, 0, 0);
+    margin-right: 0 !important;
+}
+
+.nextprev.righty {
+float: right;
+}
+
+.nextprevblog.righty {
+float: right;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+.nextprev {
+   position: fixed;
+}
+    .nextprev.lefty {
+left:0;
+}
+
+.nextprev.righty {
+    right: 0;
+}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+    
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+ 
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+ 
+}
+
+/////////////////////
+//X MARK
+/////////////////////
+
+.xmarkfix {
+    position: fixed;
+    top: 0;
+    right:0;
+    left:0;
+    z-index: 1001;
+    pointer-events: none;
+}
+
+.xmark {
+    circle {fill:white;}
+    width: 80px;
+    float: right;
+    margin: 10px;
+    pointer-events: all;
+}
+
+.animated {
+      -o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+  	transition: .2s;
+  transform-origin:center;
+}
+
+.xlink {
+    .x {fill:$text-color-accent;}
+}
+
+.xlink:hover {
+    .backcircle {fill:$text-color-accent;}
+    .x {fill:white;}
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
+
+/////////////////////
+//X MARK
+/////////////////////
