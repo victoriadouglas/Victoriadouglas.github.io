@@ -102,7 +102,7 @@ a {
 a:hover {
 color: $text-color-accent;
     color: white;
-    background-color: #222;
+    background-color: #222 !important;
 }
 
 .title {
