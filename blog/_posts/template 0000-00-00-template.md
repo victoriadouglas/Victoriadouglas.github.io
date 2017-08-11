@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: blog
 title: ""
+subtitle:
 category: Blog
-cover: /blog/cover/
+cover: /blog/covers/
 date: yyyy-mm-dd
 ---

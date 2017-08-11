@@ -11,6 +11,11 @@ layout: Home
     <!--<img class="art" src="{{ page.cover }}">-->
         {% endif %}
     <h2>{{ page.title }}</h2>
+                        {% if page.subtitle %}
+        <p style="margin:0 0 5px 0;">{{ page.subtitle }}</p>
+        {% else %}
+    <!--<p>{{ page.subtitle }}</p>-->
+        {% endif %}
     <h3>// {{ page.date | date_to_string }}</h3>
     </div>
     
