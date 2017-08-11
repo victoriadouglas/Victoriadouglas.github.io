@@ -7,5 +7,4 @@ tags: blog
 date: 2017-08-07
 cover:
 ---
-
-This is Lorem Ipsumy.
+I did it because I wanted to.
