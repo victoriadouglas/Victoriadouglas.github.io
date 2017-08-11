@@ -1,17 +1,4 @@
-
-
-
-
-
-.thumbnail {
-    display:inline-block;
-    margin: 0;
-    vertical-align: bottom;
-    img {
-        width:auto;
-        height: 150px;
-    }
-    a {
+a {
     font-family: $font-default;
     -o-transition:.2s;
   	-ms-transition:.2s;
@@ -35,7 +22,7 @@
     background-color:white;
         img{opacity: .5;}
     }
-}
+
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
