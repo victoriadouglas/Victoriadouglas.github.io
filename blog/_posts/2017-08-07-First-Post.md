@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: "Test test post"
+title: "Fresh Starts"
+subtitle:
 category: Blog
 tags: blog
-date: 2015-10-01
-author: Jared Sellers
+date: 2017-08-07
 cover:
 ---
 
