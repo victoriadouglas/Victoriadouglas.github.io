@@ -1,9 +1,41 @@
 
 
-.right90 {
--webkit-transform: rotate(27deg);
--moz-transform: rotate(27deg);
--o-transform: rotate(27deg);
-transform: rotate(27deg);
+.rightbig {
+    margin-top: 50px;
+    display: block;
+-webkit-transform: rotate(7deg);
+-moz-transform: rotate(7deg);
+-o-transform: rotate(7deg);
+transform: rotate(7deg);
+writing-mode: lr-tb;
+}
+
+.leftbig {
+    margin-top: 50px;
+    display: block;
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-o-transform: rotate(-7deg);
+transform: rotate(-7deg);
+writing-mode: lr-tb;
+}
+
+.rightsmall {
+    margin-top: 15px;
+    display: block;
+-webkit-transform: rotate(3deg);
+-moz-transform: rotate(3deg);
+-o-transform: rotate(3deg);
+transform: rotate(3deg);
+writing-mode: lr-tb;
+}
+
+.leftsmall {
+    margin-top: 15px;
+    display: block;
+-webkit-transform: rotate(-3deg);
+-moz-transform: rotate(-3deg);
+-o-transform: rotate(-3deg);
+transform: rotate(-3deg);
 writing-mode: lr-tb;
 }
