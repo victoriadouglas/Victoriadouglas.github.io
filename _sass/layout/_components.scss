@@ -2,7 +2,8 @@
 //NEXT PREV BUTTONS
 /////////////////////
 
-
+.nextprevdiv {
+}
 
 .nextprev {
     top:30vh;
@@ -73,7 +74,7 @@ left:0;
 
 .xmark {
     circle {fill:white;}
-    width: 80px;
+    width: 50px;
     float: right;
     margin: 10px;
     pointer-events: all;

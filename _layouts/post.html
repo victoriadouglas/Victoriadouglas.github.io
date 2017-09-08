@@ -3,10 +3,9 @@ layout: Home
 ---
 <div class="container">
 {% include xmark.html %}
-    {% include nextprev.html %}
 </div>
 
-
+{% include nextprev.html %}
 {% if page.full %}
     <img class="folioimg" src="{{ page.full }}">
 {% else %}
@@ -20,8 +19,6 @@ layout: Home
         {% else %}
     <!--<p>{{ page.description }}</p>-->
         {% endif %}
-    <div class="row" style="margin-top:50px;">
-</div> 
     {% if page.detail %}
     <img style="margin-top:100px;" class="art" src="{{ page.detail }}">
         {% else %}
@@ -30,6 +27,7 @@ layout: Home
 {{ content }}
 </div>
     </div>
+
 <div style="height:150px;">
     
 

@@ -1,8 +1,9 @@
 .Sellers {font-weight: 100;}
 
 .logo a {
-display: inline-block;
-float: left;
+display: block;
+margin: 0 auto;
+    text-align: center;
 }
 
 .nav {
@@ -21,6 +22,10 @@ float: left;
 
 }
 
+.links ul {
+text-align: center;
+}
+
 .links ul li {
     display: inline-block;
     margin-top: 10px;
@@ -28,9 +33,10 @@ float: left;
 
 
 .links {
-    display: inline-block;
-    float: right;
+    display: block;
+    margin: 0 auto;
 }
+
 
 .logo a {
     text-decoration: none;
@@ -60,14 +66,44 @@ float: left;
   	-moz-transition:.2s;
   	-webkit-transition:.2s;
   	transition: .2s;
-    padding: 13px 13px;
+    padding: 13px 5px;
     font-family:$font-default;
-    font-weight:$heavy;
-    letter-spacing: 10px;
+    font-weight:$light;
+    letter-spacing: 3px;
     border-radius: 0px 0px 0px 0px;
 }
 
 .sitelink  a:hover {
     color:white;
     background-color: #222;
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 650px) {
+.logo a {
+display: inline-block;
+float: left;
+}
+
+.links {
+    display: inline-block;
+    float: right;
+}
+    
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+    
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+ 
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+ 
 }

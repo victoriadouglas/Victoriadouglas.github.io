@@ -23,8 +23,9 @@ margin: 25px 0px 25px 0px;
 
 .thumbnail img {
         margin: 5px;
-        width:auto;
-        height: 150px;
+        width:100%;
+        height: auto;
+    border-radius: 10px;
     }
 
 //IMAGES
@@ -45,8 +46,11 @@ border-radius: 0 50px 0 0;
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {
-
+@media (min-width: 700px) {
+.thumbnail img {
+        width:300px;
+        height: auto;
+    }
     
 }
 
