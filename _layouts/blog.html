@@ -10,13 +10,20 @@ layout: Home
         {% else %}
     <!--<img class="art" src="{{ page.cover }}">-->
         {% endif %}
-    <h2>{{ page.title }}</h2>
+        
+   <div style="text-align:center;">
+        <h2 style="text-align:center;">{{ page.title }}</h2>
+        </div>
+    
+        <hr>
+            <div style="Margin:0 auto; max-width:500px;"> 
                         {% if page.subtitle %}
         <p style="margin:0 0 5px 0;">{{ page.subtitle }}</p>
         {% else %}
     <!--<p>{{ page.subtitle }}</p>-->
         {% endif %}
     <h3>// {{ page.date | date_to_string }}</h3>
+    </div>
     </div>
     
     {% if page.description %}
@@ -30,6 +37,7 @@ layout: Home
         {% else %}
     <!--<img style="margin-top:100px;" class="art" src="{{ page.detail }}">-->
         {% endif %}
-
+     
+    <div style="Margin:0 auto; max-width:500px;">
 {{ content }}
-
+</div>
