@@ -6,7 +6,6 @@ subtitle: When I get around to it.
 
 <ul class="posts">
 {% for post in site.categories.blog %}
-	    
     <li class="postlist blogimg">
         
         <!--<p>{% if post.thumbnail %}
@@ -17,9 +16,9 @@ subtitle: When I get around to it.
             {% if post.cover %}
         <a class="title" href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.cover }}"></a>
         {% else %}
-    <!--<img class="art" src="{{ page.cover }}">-->
+    <hr>
         {% endif %}
-            <h2><a class="title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+            <h2 style="text-align:left;"><a class="title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
                     {% if post.subtitle %}
         <p style="margin:0 0 5px 0;">{{ post.subtitle }}</p>
         {% else %}
