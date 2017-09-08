@@ -123,11 +123,11 @@ left:0;
 }
 
 .xlink {
-    .x {fill:$text-color-accent;}
+    .x {fill:$text-color-accent2;}
 }
 
 .xlink:hover {
-    .backcircle {fill:$text-color-accent;}
+    .backcircle {fill:$text-color-accent2;}
     .x {fill:white;}
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg); 
