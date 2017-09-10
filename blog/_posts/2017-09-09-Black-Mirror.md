@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Review: Black Mirror"
-subtitle: My personal ranking of all 13 episodes in my favorite sci-fi anthology
+subtitle: A science fiction anthology show with some bite
 category: Blog
 cover:
 date: 2017-09-09
