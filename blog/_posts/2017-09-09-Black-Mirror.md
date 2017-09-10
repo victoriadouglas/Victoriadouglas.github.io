@@ -1,16 +1,17 @@
 ---
 layout: blog
-title: "Black Mirror"
+title: "Review: Black Mirror"
 subtitle: My personal ranking of all 13 episodes in my favorite sci-fi anthology
 category: Blog
 cover:
 date: 2017-09-09
 ---
-The Twilight Zone was a staple of my childhood. Every episode was a self contained story that stretched the limits of reality and portrayed humanity at it's best as well as it's worst. Alfred Hitchcock had a way of telling stories that are haunting, even half a century later. It inspired my love for psychological horror, as well as science fiction. I've always felt that sci-fi is one of the most revealing genres. When you take ordinary people, and put them in extraordinary worlds or circumstances, then you get a perfect snapshot of human nature. It's a powerful tool for commentary, and we have seen eerie predictions come to life in classics like 1984, Brave New World, and others.
 
-Black Mirror is a return to form for dramatic anthology tv. It is a dark, bleak take on the world we live in, pushing the boundaries of what is possible to return the worst possible consequences. There is a common theme of technology, the role it plays in our lives, and all the ways that it may not be making our lives better. At 13 episodes long, spread across 3 short seasons, it is easily accessible without dominating your tv habits for the next year. It's quickly become one of my absolute favorite shows, although it won't be for you if you want happy endings and stable characters. Black Mirror is all about psychological twists, grim prospects and societal issues. Have fun with it.
+Black Mirror is a return to form for dramatic anthology tv. Following in the footsteps of shows like The Twilight Zone, it wraps a full, unique story into each episode. It is a dark, bleak take on the world we live in, pushing the boundaries of what is possible to return the worst possible consequences. There is a common theme of technology, the role it plays in our lives, and all the ways that it may not be making our lives better. 
 
-Since every episode is unique, it leads to a lot of discussion over which episodes are better than others. Black Mirror runs a wide gamut, with some episodes being drastically different than others. Part of the appeal of the show in general, is that different episodes will "speak" to different people. Nobody has the same favorite episode, and there are very few duds. I wanted to put my two cents into the discussion, with my personal rankings through all thirteen episodes. I will keep it as spoiler free as possible, so don't worry if you haven't seen the show yet.
+At 13 episodes long, spread across 3 short seasons, it is easily accessible without dominating your tv habits for the next year. It's quickly become one of my absolute favorite shows, although it won't be for you if you want happy endings and stable characters. Black Mirror is all about psychological twists, grim prospects and societal issues. Have fun with it.
+
+Since every episode is unique, it leads to a lot of discussion over which episodes are better than others. Black Mirror runs a wide gamut, with some episodes being drastically different than others. Part of the appeal of the show in general, is that different episodes will "speak" to different people. Nobody has the same favorite episode, and there are very few duds. I wanted to put my two cents into the discussion, with my thoughts on all thirteen episodes. I will keep it as spoiler free as possible, so don't worry if you haven't seen the show yet.
 
 ### 13. The National Anthem
 The first episode of Black Mirror is also by far the darkest. Really, really messed up. At the same time, it's a spectacular episode, and really should be ranked a lot higher on my list. The reason it is in last place is more out of principle. It's seriously disturbing. Black Mirror pushes boundaries in every episode, but The National Anthem wins a special award for being the *worst*. It is the only episode that I would even consider skipping entirely. 
