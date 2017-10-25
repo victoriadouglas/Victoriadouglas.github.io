@@ -94,6 +94,8 @@ a {
   	-moz-transition:.2s;
   	-webkit-transition:.2s;
   	transition: .2s;
+    text-transform: inherit !important;
+    vertical-align: inherit !important;
     text-decoration: none;
     padding: 0px 0px;
     color: $text-color-accent2;
