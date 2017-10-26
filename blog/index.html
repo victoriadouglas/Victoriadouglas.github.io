@@ -14,15 +14,15 @@ subtitle: When I get around to it.
                 <a href="{{ post.url }}"><img src="http://lorempixel.com/50/50/" /></a>
 	{% endif %}</p>-->
 	            <h2 style="text-align:left;"><a class="title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+	                        {% if post.subtitle %}
+        <p style="margin:0 0 5px 0;">{{ post.subtitle }}</p>
+        {% else %}
+    <!--<p>{{ post.subtitle }}</p>-->
+        {% endif %}
             {% if post.cover %}
         <a class="title" href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.cover }}"></a>
         {% else %}
     <hr>
-        {% endif %}
-                    {% if post.subtitle %}
-        <p style="margin:0 0 5px 0;">{{ post.subtitle }}</p>
-        {% else %}
-    <!--<p>{{ post.subtitle }}</p>-->
         {% endif %}
             <h3 style="margin-bottom:100px;">//{{ post.date | date_to_string }}</h3>
         </li>
